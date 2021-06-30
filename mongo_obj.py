@@ -24,8 +24,8 @@ class Basededatos():
 
   def imprime(self):
       print("\nDesde metodo imprime")
-      print(self.cliente.list_database_names())      # Imprime las bases de datos existentes
-      print(self.db.list_collection_names())       # Imprime las colecciones de esas bases
+      # print(self.cliente.list_database_names())      # Imprime las bases de datos existentes
+      # print(self.db.list_collection_names())       # Imprime las colecciones de esas bases
       #Recuento de documentos
       cant = self.col.count_documents({})
       print("cantidad de registros:", cant)
@@ -33,8 +33,13 @@ class Basededatos():
       for documento in self.col.find({}):
           print(documento)
 
+  def agrega(self):
+    registro = {"nombre":"jorge","intereses":["dato1","dato2"]}
+    self.col.insert_one(registro)
+
 if __name__ == '__main__':
   datos = Basededatos()
+  datos.agrega()
   print("desde main\n",datos.cliente)
   datos.imprime()
 
