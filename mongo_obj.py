@@ -19,8 +19,6 @@ class Basededatos():
       self.cliente = client
       self.db = db
       self.col = col
-      # print(client.list_database_names())
-      # print(client)
 
   def imprime(self):
       print("\nDesde metodo imprime")
