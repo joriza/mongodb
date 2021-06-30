@@ -24,12 +24,8 @@ class Basededatos():
 
   def imprime(self):
       print("\nDesde metodo imprime")
-      # print(self.cliente.list_database_names())      # Imprime las bases de datos existentes
-      # print(self.db.list_collection_names())       # Imprime las colecciones de esas bases
-      #Recuento de documentos
       cant = self.col.count_documents({})
       print("cantidad de registros:", cant)
-      #Recorrer todos los documentos
       for documento in self.col.find({}):
           print(documento)
 
