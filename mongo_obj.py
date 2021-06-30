@@ -13,29 +13,35 @@ os.system ("clear")
 
 class Basededatos():
   def __init__(self):
-      self.client = MongoClient('localhost',27017,username="root",password="root")
-      self.db = client['pru']
-      self.col = db['temp']
-      print(client.list_database_names())
+      client = MongoClient('localhost',27017,username="root",password="root")
+      db = client['pru']
+      col = db['temp']
+      self.cliente = client
+      self.db = db
+      self.col = col
+      # print(client.list_database_names())
+      # print(client)
 
   def imprime(self):
+      print("\nDesde metodo imprime")
       # Imprime las bases de datos existentes
-      print(client.list_database_names())
+      print(self.cliente.list_database_names())
       # Imprime las colecciones de esas bases
-      print(db.list_collection_names())
-      return
+      print(self.db.list_collection_names())
+      # return
 
       #Recuento de documentos
-      cant = col.count_documents({})
+      cant = self.col.count_documents({})
       print("cantidad de registros:", cant)
 
       #Recorrer todos los documentos
-      for documento in col.find({}):
+      for documento in self.col.find({}):
           print(documento)
 
-# if __name__ == '__main__':
-dato = Basededatos()
-# dato.imprime()
+if __name__ == '__main__':
+  datos = Basededatos()
+  print("desde main\n",datos.cliente)
+  datos.imprime()
 
 
 # registro = {"nombre":"jorge","intereses":["dato1","dato2"]}
