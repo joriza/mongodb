@@ -6,7 +6,7 @@ import pymongo
 from pymongo import MongoClient
 
 # conexión
-client = MongoClient('localhost',27017)
+client = MongoClient('localhost',27017,username="root",password="root")
 db = client.mitienda
 
 # colección

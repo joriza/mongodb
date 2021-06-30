@@ -1,0 +1,483 @@
+  {
+    "RequiredDomains":
+      [
+        "User Music Search",
+        "Contact Access V2",
+        "Query Glue",
+        "Terrier Upload"
+      ],
+    "SetupQueries":
+      {
+        "Input":
+          [
+              {
+                "Kind": "Text",
+                "DeltaRequestInfo":
+                  {
+                    "UserMusicInfo":
+                      {
+                        "Requests":
+                          [
+                              {
+                                "RequestKind": "Clear",
+                                "Tables":
+                                  [
+                                    "Track",
+                                    "Album",
+                                    "Artist",
+                                    "Playlist"
+                                  ]
+                              },
+                              {
+                                "RequestKind": "Add",
+                                "Playlists":
+                                  [
+                                      {
+                                        "PlaylistId": "playlist001",
+                                        "Name": "On the road",
+                                        "Aliases":
+                                          [
+                                            "in my car",
+                                            "road trip 1"
+                                          ],
+                                        "Tracks":
+                                          [
+                                            "t1",
+                                            "t300"
+                                          ]
+                                      }
+                                  ],
+                                "Artists":
+                                  [
+                                      {
+                                        "Name": "Paul Simon",
+                                        "ArtistId": "artist1"
+                                      },
+                                      {
+                                        "Name": "Julia Fordham",
+                                        "ArtistId": "artist2"
+                                      },
+                                      {
+                                        "Name": "Art Garfunkel",
+                                        "ArtistId": "artist3"
+                                      },
+                                      {
+                                        "Name": "Simon and Garfunkel",
+                                        "ArtistId": "artist4"
+                                      },
+                                      {
+                                        "Name": "Queen",
+                                        "ArtistId": "artist5"
+                                      }
+                                  ],
+                                "Albums":
+                                  [
+                                      {
+                                        "Title": "Graceland",
+                                        "AlbumId": "Album1",
+                                        "PrimaryArtistIds":
+                                          [
+                                            "artist1"
+                                          ]
+                                      },
+                                      {
+                                        "Title": "Julia Fordham",
+                                        "AlbumId": "Album2",
+                                        "PrimaryArtistIds":
+                                          [
+                                            "artist2"
+                                          ]
+                                      },
+                                      {
+                                        "Title": "Falling Forward",
+                                        "AlbumId": "Album3",
+                                        "PrimaryArtistIds":
+                                          [
+                                            "artist2"
+                                          ]
+                                      },
+                                      {
+                                        "Title": "Bridge over Troubled Water",
+                                        "ArtistName": "Simon and Garfunkel",
+                                        "AlbumId": "Album4",
+                                        "PrimaryArtistIds":
+                                          [
+                                            "artist4"
+                                          ]
+                                      },
+                                      {
+                                        "Title": "Jazz",
+                                        "AlbumId": "Album5",
+                                        "PrimaryArtistIds":
+                                          [
+                                            "artist5"
+                                          ]
+                                      }
+                                  ],
+                                "Tracks":
+                                  [
+                                      {
+                                        "Title": "Graceland",
+                                        "AlbumId": "Album1",
+                                        "Genres":
+                                          [
+                                            "Folk",
+                                            "Pop"
+                                          ]
+                                      },
+                                      {
+                                        "Title": "Boy in the Bubble",
+                                        "AlbumId": "Album1",
+                                        "Genres":
+                                          [
+                                            "Rock",
+                                            "Pop"
+                                          ]
+                                      },
+                                      {
+                                        "Title": "Happy Ever After",
+                                        "AlbumId": "Album2"
+                                      },
+                                      {
+                                        "Title": "Woman of the eighties",
+                                        "AlbumId": "Album3",
+                                        "Genres":
+                                          [
+                                            "Jazz",
+                                            "Pop"
+                                          ]
+                                      },
+                                      {
+                                        "Title": "Falling Forward",
+                                        "AlbumId": "Album3",
+                                        "Genres":
+                                          [
+                                            "Jazz",
+                                            "Pop"
+                                          ]
+                                      },
+                                      {
+                                        "Title": "If I could",
+                                        "AlbumId": "Album4",
+                                        "Genres":
+                                          [
+                                            "Folk"
+                                          ]
+                                      },
+                                      {
+                                        "Title": "The Boxer",
+                                        "AlbumId": "Album4",
+                                        "Genres":
+                                          [
+                                            "Folk"
+                                          ]
+                                      },
+                                      {
+                                        "Title": "Cecilia",
+                                        "AlbumId": "Album4",
+                                        "Genres":
+                                          [
+                                            "Folk"
+                                          ]
+                                      },
+                                      {
+                                        "Title": "All that Jazz",
+                                        "AlbumId": "Album5",
+                                        "Genres":
+                                          [
+                                            "Rock"
+                                          ]
+                                      },
+                                      {
+                                        "Title": "Fat Bottomed Girls",
+                                        "AlbumId": "Album5",
+                                        "Genres":
+                                          [
+                                            "Rock"
+                                          ]
+                                      },
+                                      {
+                                        "Title": "Bohemian Rhapsody",
+                                        "TrackId": "t1",
+                                        "PrimaryArtistIds":
+                                          [
+                                            "artist5"
+                                          ],
+                                        "Genres":
+                                          [
+                                            "Rock"
+                                          ]
+                                      }
+                                  ]
+                              }
+                          ]
+                      }
+                  },
+                "Input": "index_user_music_from_request_info"
+              }
+          ],
+        "Expected":
+          [
+              {
+                "Kind": "Partial",
+                "JSON":
+                  [
+                      {
+                        "CommandKind": "IndexUserMusicCommand"
+                      }
+                  ],
+                "Path": "ServerResponse"
+              }
+          ]
+      },
+    "TestCases":
+      [
+          {
+            "Input":
+              [
+                  {
+                    "Kind": "Text",
+                    "Input": "lista todos mis discos"
+                  }
+              ],
+            "Expected":
+              [
+                  {
+                    "Kind": "Equal",
+                    "JSON":
+                      [
+                          {
+                            "CommandKind": "UserMusicSearchCommand",
+                            "SpokenResponse": "Este dispositivo no soporta la búsqueda de música local.",
+                            "SpokenResponseLong": "Este dispositivo no soporta la búsqueda de música local.",
+                            "WrittenResponse": "Este dispositivo no soporta la búsqueda de música local.",
+                            "WrittenResponseLong": "Este dispositivo no soporta la búsqueda de música local.",
+                            "AutoListen": false,
+                            "ViewType":
+                              [
+                                "Native",
+                                "None"
+                              ],
+                            "ClientActionSucceededResult":
+                              {
+                                "SpokenResponse": "Tienes Graceland, Julia Fordham y otros tres.",
+                                "SpokenResponseLong": "Tienes Graceland, Julia Fordham y otros tres.",
+                                "WrittenResponse": "Tienes Graceland, Julia Fordham y otros 3.",
+                                "WrittenResponseLong": "Tienes Graceland, Julia Fordham y otros 3."
+                              },
+                            "SearchResults":
+                              {
+                                "Albums":
+                                  [
+                                      {
+                                        "Title": "Graceland",
+                                        "AlbumId": "Album1",
+                                        "PrimaryArtistIds":
+                                          [
+                                            "artist1"
+                                          ]
+                                      },
+                                      {
+                                        "Title": "Julia Fordham",
+                                        "AlbumId": "Album2",
+                                        "PrimaryArtistIds":
+                                          [
+                                            "artist2"
+                                          ]
+                                      },
+                                      {
+                                        "Title": "Falling Forward",
+                                        "AlbumId": "Album3",
+                                        "PrimaryArtistIds":
+                                          [
+                                            "artist2"
+                                          ]
+                                      },
+                                      {
+                                        "Title": "Bridge over Troubled Water",
+                                        "AlbumId": "Album4",
+                                        "PrimaryArtistIds":
+                                          [
+                                            "artist4"
+                                          ],
+                                        "ArtistName": "Simon and Garfunkel"
+                                      },
+                                      {
+                                        "Title": "Jazz",
+                                        "AlbumId": "Album5",
+                                        "PrimaryArtistIds":
+                                          [
+                                            "artist5"
+                                          ]
+                                      }
+                                  ]
+                              },
+                            "UserRequestedAutoPlay": false,
+                            "SearchType": "Unspecified",
+                            "TotalAlbumCount": 5,
+                            "RequestedEntityType": "Album"
+                          }
+                      ],
+                    "Path": "ServerResponse"
+                  }
+              ]
+          },
+          {
+            "Input":
+              [
+                  {
+                    "Kind": "Text",
+                    "Input": "de mi colección lista todos mis artistas"
+                  }
+              ],
+            "Expected":
+              [
+                  {
+                    "Kind": "Partial",
+                    "JSON":
+                      [
+                          {
+                            "CommandKind": "UserMusicSearchCommand",
+                            "AutoListen": false,
+                            "ViewType":
+                              [
+                                "Native",
+                                "None"
+                              ],
+                            "ClientActionSucceededResult":
+                              {
+                                "SpokenResponse": "Tienes Paul Simon, Julia Fordham y otros tres.",
+                                "SpokenResponseLong": "Tienes Paul Simon, Julia Fordham y otros tres.",
+                                "WrittenResponse": "Tienes Paul Simon, Julia Fordham y otros 3.",
+                                "WrittenResponseLong": "Tienes Paul Simon, Julia Fordham y otros 3."
+                              },
+                            "SearchResults":
+                              {
+                                "Artists":
+                                  [
+                                      {
+                                        "Name": "Paul Simon",
+                                        "ArtistId": "artist1"
+                                      },
+                                      {
+                                        "Name": "Julia Fordham",
+                                        "ArtistId": "artist2"
+                                      },
+                                      {
+                                        "Name": "Art Garfunkel",
+                                        "ArtistId": "artist3"
+                                      },
+                                      {
+                                        "Name": "Simon and Garfunkel",
+                                        "ArtistId": "artist4"
+                                      },
+                                      {
+                                        "Name": "Queen",
+                                        "ArtistId": "artist5"
+                                      }
+                                  ]
+                              },
+                            "UserRequestedAutoPlay": false,
+                            "SearchType": "Unspecified",
+                            "TotalArtistCount": 5,
+                            "RequestedEntityType": "Artist"
+                          }
+                      ],
+                    "Path": "ServerResponse"
+                  }
+              ]
+          },
+          {
+            "Input":
+              [
+                  {
+                    "Kind": "Text",
+                    "Input": "de mi colección lista las canciones de queen"
+                  }
+              ],
+            "Expected":
+              [
+                  {
+                    "Kind": "Equal",
+                    "JSON":
+                      [
+                          {
+                            "CommandKind": "UserMusicSearchCommand",
+                            "SpokenResponse": "Este dispositivo no soporta la búsqueda de música local.",
+                            "SpokenResponseLong": "Este dispositivo no soporta la búsqueda de música local.",
+                            "WrittenResponse": "Este dispositivo no soporta la búsqueda de música local.",
+                            "WrittenResponseLong": "Este dispositivo no soporta la búsqueda de música local.",
+                            "AutoListen": false,
+                            "ViewType":
+                              [
+                                "Native",
+                                "None"
+                              ],
+                            "ClientActionSucceededResult":
+                              {
+                                "SpokenResponse": "Tienes All that Jazz, Fat Bottomed Girls por Queen y una más.",
+                                "SpokenResponseLong": "Tienes All that Jazz, Fat Bottomed Girls por Queen y una más.",
+                                "WrittenResponse": "Tienes All that Jazz, Fat Bottomed Girls por Queen y 1 más.",
+                                "WrittenResponseLong": "Tienes All that Jazz, Fat Bottomed Girls por Queen y 1 más."
+                              },
+                            "SearchResults":
+                              {
+                                "Tracks":
+                                  [
+                                      {
+                                        "Title": "All that Jazz",
+                                        "TrackId": "generated_8",
+                                        "PrimaryArtistIds":
+                                          [
+                                            "artist5"
+                                          ],
+                                        "AlbumId": "Album5",
+                                        "ArtistName": "Queen",
+                                        "AlbumTitle": "Jazz",
+                                        "Genres":
+                                          [
+                                            "Rock"
+                                          ]
+                                      },
+                                      {
+                                        "Title": "Fat Bottomed Girls",
+                                        "TrackId": "generated_9",
+                                        "PrimaryArtistIds":
+                                          [
+                                            "artist5"
+                                          ],
+                                        "AlbumId": "Album5",
+                                        "ArtistName": "Queen",
+                                        "AlbumTitle": "Jazz",
+                                        "Genres":
+                                          [
+                                            "Rock"
+                                          ]
+                                      },
+                                      {
+                                        "Title": "Bohemian Rhapsody",
+                                        "TrackId": "t1",
+                                        "PrimaryArtistIds":
+                                          [
+                                            "artist5"
+                                          ],
+                                        "ArtistName": "Queen",
+                                        "Genres":
+                                          [
+                                            "Rock"
+                                          ]
+                                      }
+                                  ]
+                              },
+                            "UserRequestedAutoPlay": false,
+                            "SearchType": "SearchForTracksByArtist",
+                            "TotalTrackCount": 3,
+                            "RequestedEntityType": "Track"
+                          }
+                      ],
+                    "Path": "ServerResponse"
+                  }
+              ]
+          }
+      ]
+  }

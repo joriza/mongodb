@@ -16,7 +16,7 @@ client = MongoClient('localhost',27017,username="root",password="root")
 #crear una base vacía, #Si existe la abre
 db = client['pru']
 # crea una colección ,si existe la usa
-col = db['col']
+col = db['temp']
 # Imprime las bases de datos existentes
 print(client.list_database_names())
 # Imprime las colecciones de esas bases
@@ -32,6 +32,34 @@ for documento in col.find({}):
 
 print("coleccion en crudo:\n",col)
 
-registro = {"nombre":"jorge","intereses":["dato1","dato2"]}
+# registro = {"nombre":"jorge","intereses":["dato1","dato2"]}
+# col.insert_one(registro)
 
-col.insert_one(registro)
+# importacion 1
+# with open("importar2.json") as f:
+# file_data = json.load(f)
+# col.insert(file_data)
+# client.close()
+
+
+# importacion 2
+# #Abriendo el archivo con la funcion open()
+# f = open("importar2.json", 'r')
+# #Recorriendo las lineas del archivo
+# for linea in f:
+#   #Insertando los registros en la DB
+#   dic = json.loads(linea) #Crea los diccionarios a partir del string linea
+#   col.insert(dic)
+# #Cerramos el archivo
+# f.close()
+# print ("\nSe han importado los datos exitosamente!")
+
+
+# # importacion 3
+# with open('currencies.json') as file:
+#     fil e_data = json.load(file)
+
+# if isinstance(file_data, list):
+#     col.insert_many(file_data)
+# else:
+#     col.insert_one(file_data)

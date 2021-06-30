@@ -5,3 +5,11 @@ docker-compose up -d
 ### Verificar que está levantado el contenedor
 docker-compose ps
 
+### Bajar un contenedor
+docker-compose down
+
+
+
+## Mongodb
+### Nomenclaturas
+Las collections no pueden contener caracteres especiales, ni siquiera guin medio.
