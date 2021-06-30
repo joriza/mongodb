@@ -13,12 +13,12 @@ os.system ("clear")
 
 class Basededatos():
   def __init__(self):
-      client = MongoClient('localhost',27017,username="root",password="root")
-      db = client['pru']
-      col = db['temp']
-      self.cliente = client
-      self.db = db
-      self.col = col
+      self.client = MongoClient('localhost',27017,username="root",password="root")
+      self.db = self.client['pru']
+      self.col = self.db['temp']
+      # self.cliente = client
+      # self.db = db
+      # self.col = col
 
   def imprime(self):
       print("\nDesde metodo imprime")
