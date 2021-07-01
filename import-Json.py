@@ -1,4 +1,4 @@
-# este si importa un json
+# este si importa un json a mongodb
 import json
 from pymongo import MongoClient
 

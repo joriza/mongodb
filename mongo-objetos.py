@@ -7,6 +7,7 @@
 # docker rm <nombre>
 
 import os
+import json
 import pymongo
 from pymongo import MongoClient
 os.system ("clear")
@@ -21,11 +22,18 @@ class Basededatos():
       print("\nDesde metodo imprime")
       cant = self.col.count_documents({})
       print("cantidad de registros:", cant)
-      for documento in self.col.find({}):
+      for documento in self.col.find({},{"_id":0}): # imprime sin el :id
           print(documento)
 
   def agrega(self):
     registro = {"nombre":"jorge","intereses":["dato1","dato2"]}
+    self.col.insert_one(registro)
+
+  def agregaDocumento(self,file):
+    file = file+".json"
+    print("archivo: ",file)
+    with open("data_file.json", "r") as read_file:
+      registro = json.load(read_file)
     self.col.insert_one(registro)
 
   def exporta(self):
@@ -36,37 +44,10 @@ if __name__ == '__main__':
   datos = Basededatos()
   datos.agrega()
   print("desde main\n",datos.client)
+  datos.agregaDocumento("data_file")
   datos.imprime()
 
 
 # registro = {"nombre":"jorge","intereses":["dato1","dato2"]}
 # col.insert_one(registro)
 
-# importacion 1
-# with open("importar2.json") as f:
-# file_data = json.load(f)
-# col.insert(file_data)
-# client.close()
-
-
-# importacion 2
-# #Abriendo el archivo con la funcion open()
-# f = open("importar2.json", 'r')
-# #Recorriendo las lineas del archivo
-# for linea in f:
-#   #Insertando los registros en la DB
-#   dic = json.loads(linea) #Crea los diccionarios a partir del string linea
-#   col.insert(dic)
-# #Cerramos el archivo
-# f.close()
-# print ("\nSe han importado los datos exitosamente!")
-
-
-# # importacion 3
-# with open('currencies.json') as file:
-#     fil e_data = json.load(file)
-
-# if isinstance(file_data, list):
-#     col.insert_many(file_data)
-# else:
-#     col.insert_one(file_data)

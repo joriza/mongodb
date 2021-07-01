@@ -1,6 +1,8 @@
 # Varios ejemplos de lectura, escritura y manipulación de archivos con datos formato json
 # Fuente: https://realpython.com/python-json/
-import json
+# https://www.datacamp.com/community/tutorials/introduction-mongodb-python?utm_source=adwords_ppc&utm_campaignid=1455363063&utm_adgroupid=65083631748&utm_device=c&utm_keyword=&utm_matchtype=b&utm_network=g&utm_adpostion=&utm_creative=332602034364&utm_targetid=aud-392016246653:dsa-429603003980&utm_loc_interest_ms=&utm_loc_physical_ms=9041014&gclid=CjwKCAjwrPCGBhALEiwAUl9X009AOO_QZ53u_cprzCuXWt-ZcpWilxGJVhQVmSVPRurEoAHO-3gXqxoCdx0QAvD_BwE
+# Consultar mongo engine
+# jmespath para python
 import os
 os.system ("clear")
 

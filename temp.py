@@ -1,3 +1,5 @@
+# Algunos ejemplos de uso de pymongo, luego se podría borrar.
+
 # Para ejecutar Mongo en Docker
 # docker run -d -p 27017:27017 --name mydatabase mongo:4.2
 # docker run --rm -d -p 27017:27017 --name mongo mongo:4.2
@@ -10,7 +12,7 @@ import os
 import pymongo
 from pymongo import MongoClient
 os.system ("clear")
-
+|
 # conexión
 client = MongoClient('localhost',27017,username="root",password="root")
 #crear una base vacía, #Si existe la abre
