@@ -16,9 +16,6 @@ class Basededatos():
       self.client = MongoClient('localhost',27017,username="root",password="root")
       self.db = self.client['pru']
       self.col = self.db['temp']
-      # self.cliente = client
-      # self.db = db
-      # self.col = col
 
   def imprime(self):
       print("\nDesde metodo imprime")
@@ -31,10 +28,14 @@ class Basededatos():
     registro = {"nombre":"jorge","intereses":["dato1","dato2"]}
     self.col.insert_one(registro)
 
+  def exporta(self):
+    pass
+
+
 if __name__ == '__main__':
   datos = Basededatos()
   datos.agrega()
-  print("desde main\n",datos.cliente)
+  print("desde main\n",datos.client)
   datos.imprime()
 
 

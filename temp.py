@@ -55,11 +55,11 @@ print("coleccion en crudo:\n",col)
 # print ("\nSe han importado los datos exitosamente!")
 
 
-# # importacion 3
-# with open('currencies.json') as file:
-#     fil e_data = json.load(file)
+# importacion 3
+with open('currencies.json') as file:
+    file_data = json.load(file)
 
-# if isinstance(file_data, list):
-#     col.insert_many(file_data)
-# else:
-#     col.insert_one(file_data)
+if isinstance(file_data, list):
+    col.insert_many(file_data)
+else:
+    col.insert_one(file_data)

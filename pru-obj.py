@@ -1,10 +1,4 @@
-# Para ejecutar Mongo en Docker
-# docker run -d -p 27017:27017 --name mydatabase mongo:4.2
-# docker run --rm -d -p 27017:27017 --name mongo mongo:4.2
-# docker start mydatabase
-# hasta que recuerde mejor el uso de docker, para poder usar nuevamente el contenedor
-# Primero se debe borrar el contenedor con el comando
-# docker rm <nombre>
+# Sencillo ejemplo con POO
 
 import os
 import pymongo
