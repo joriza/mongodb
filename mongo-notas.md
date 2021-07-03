@@ -12,4 +12,4 @@ docker-compose down
 
 ## Mongodb
 ### Nomenclaturas
-Las collections no pueden contener caracteres especiales, ni siquiera guin medio.
+Las collections no pueden contener caracteres especiales, ni siquiera guión medio.

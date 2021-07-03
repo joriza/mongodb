@@ -29,10 +29,10 @@ class Basededatos():
     registro = {"nombre":"jorge","intereses":["dato1","dato2"]}
     self.col.insert_one(registro)
 
-  def agregaDocumento(self,file):
+  def RequiredDomains(self,file):
     file = file+".json"
     print("archivo: ",file)
-    with open("data_file.json", "r") as read_file:
+    with open("RequiredDomains.json", "r") as read_file:
       registro = json.load(read_file)
     self.col.insert_one(registro)
 
@@ -44,7 +44,7 @@ if __name__ == '__main__':
   datos = Basededatos()
   datos.agrega()
   print("desde main\n",datos.client)
-  datos.agregaDocumento("data_file")
+  datos.RequiredDomains("data_file")
   datos.imprime()
 
 

@@ -1,0 +1,11 @@
+{
+  "RequiredDomains":
+    [
+      "Navigation V2",
+      "Geoname Data",
+      "Contact Access V2",
+      "User Contacts",
+      "Query Glue",
+      "Terrier Upload"
+    ]
+}
