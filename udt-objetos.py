@@ -15,6 +15,6 @@ class EstructuraUDT():
 
 
 if __name__ == '__main__':
-  estructura = EstructuraUDT()
-  estructura.AbreArchivoOrigen(qry_input)
+  udt = EstructuraUDT()
+  udt.AbreArchivoOrigen(qry_input)
   print("Terminado normalente")
