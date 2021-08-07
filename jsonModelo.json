@@ -1,0 +1,453 @@
+  {
+    "RequiredDomains":
+      [
+        "Navigation V2",
+        "Geoname Data",
+        "Contact Access V2",
+        "User Contacts",
+        "Query Glue",
+        "Terrier Upload"
+      ],
+    "SetupQueries":
+      {
+        "Input":
+          [
+              {
+                "Kind": "Text",
+                "DeltaRequestInfo":
+                  {
+                    "UserContactsRequests":
+                      [
+                          {
+                            "RequestKind": "Add",
+                            "NewContacts":
+                              [
+                                  {
+                                    "FirstName": "Casa",
+                                    "LastName": "",
+                                    "PhoneEntries":
+                                      [
+                                          {
+                                            "Category": "home",
+                                            "Number": "011 4106-3501"
+                                          }
+                                      ],
+                                    "MapAddressEntries":
+                                      [
+                                          {
+                                            "Category": "home",
+                                            "Address":
+                                              {
+                                                "Address": "Av. Pres. Juan Domingo Perón 23984, San Antonio de Padua"
+                                              }
+                                          }
+                                      ],
+                                    "ACMEID": "CASA"
+                                  },
+                                  {
+                                    "FirstName": "Trabajo",
+                                    "LastName": "",
+                                    "PhoneEntries":
+                                      [
+                                          {
+                                            "Category": "home",
+                                            "Number": "011 4106-3500"
+                                          }
+                                      ],
+                                    "MapAddressEntries":
+                                      [
+                                          {
+                                            "Category": "home",
+                                            "Address":
+                                              {
+                                                "Address": "Florida 165, C.A.B.A."
+                                              }
+                                          }
+                                      ],
+                                    "ACMEID": "TRABAJO"
+                                  },
+                                  {
+                                    "FirstName": "Martin",
+                                    "LastName": "Romero",
+                                    "PhoneEntries":
+                                      [
+                                          {
+                                            "Category": "celular",
+                                            "Number": "(11) 1111-5555"
+                                          },
+                                          {
+                                            "Category": "casa",
+                                            "Number": "(11) 1111-2222"
+                                          },
+                                          {
+                                            "Category": "trabajo",
+                                            "Number": "(11) 4106-3500"
+                                          }
+                                      ],
+                                    "EmailEntries":
+                                      [
+                                          {
+                                            "Address": "martin.romero@x.com"
+                                          },
+                                          {
+                                            "Address": "romero.martin@x.com"
+                                          }
+                                      ],
+                                    "MapAddressEntries":
+                                      [
+                                          {
+                                            "Category": "casa",
+                                            "Address":
+                                              {
+                                                "Address": "Calle Falsa 132, CABA, Buenos Aires"
+                                              }
+                                          },
+                                          {
+                                            "Category": "trabajo",
+                                            "Address":
+                                              {
+                                                "Address": "Florida 165 Galeria Güemes 2ºpiso, CABA, Buenos Aires"
+                                              }
+                                          }
+                                      ],
+                                    "ACMEID": "001"
+                                  },
+                                  {
+                                    "FirstName": "Martin",
+                                    "LastName": "Lutero",
+                                    "PhoneEntries":
+                                      [
+                                          {
+                                            "Category": "celular",
+                                            "Number": "(11) 3333-4444"
+                                          },
+                                          {
+                                            "Category": "casa",
+                                            "Number": "(11) 5555-2222"
+                                          },
+                                          {
+                                            "Category": "trabajo",
+                                            "Number": "(11) 4106-3500"
+                                          }
+                                      ],
+                                    "EmailEntries":
+                                      [
+                                          {
+                                            "Address": "martin.lutero@x.com"
+                                          },
+                                          {
+                                            "Address": "lutero.martin@x.com"
+                                          }
+                                      ],
+                                    "MapAddressEntries":
+                                      [
+                                          {
+                                            "Category": "casa",
+                                            "Address":
+                                              {
+                                                "Address": "Balcarce 50, CABA, Buenos Aires"
+                                              }
+                                          },
+                                          {
+                                            "Category": "trabajo",
+                                            "Address":
+                                              {
+                                                "Address": "Florida 165 Galeria Güemes 2ºpiso, CABA, Buenos Aires"
+                                              }
+                                          }
+                                      ],
+                                    "ACMEID": "002"
+                                  },
+                                  {
+                                    "FirstName": "Martin",
+                                    "LastName": "Fierro",
+                                    "PhoneEntries":
+                                      [
+                                          {
+                                            "Category": "celular",
+                                            "Number": "(11) 8888-9999"
+                                          },
+                                          {
+                                            "Category": "casa",
+                                            "Number": "(11) 5555-2222"
+                                          },
+                                          {
+                                            "Category": "trabajo",
+                                            "Number": "(11) 4106-3500"
+                                          }
+                                      ],
+                                    "EmailEntries":
+                                      [
+                                          {
+                                            "Address": "martin.fierro@x.com"
+                                          },
+                                          {
+                                            "Address": "fierro.martin@x.com"
+                                          }
+                                      ],
+                                    "MapAddressEntries":
+                                      [
+                                          {
+                                            "Category": "casa",
+                                            "Address":
+                                              {
+                                                "Address": "Queteimporta 10, CABA, Buenos Aires"
+                                              }
+                                          },
+                                          {
+                                            "Category": "trabajo",
+                                            "Address":
+                                              {
+                                                "Address": "Florida 165 Galeria Güemes 2ºpiso, CABA, Buenos Aires"
+                                              }
+                                          }
+                                      ],
+                                    "ACMEID": "003"
+                                  },
+                                  {
+                                    "FirstName": "Jorge",
+                                    "LastName": "Izaguirre",
+                                    "PhoneEntries":
+                                      [
+                                          {
+                                            "Category": "celular",
+                                            "Number": "(11) 4444-4444"
+                                          },
+                                          {
+                                            "Category": "casa",
+                                            "Number": "(11) 44444-5555"
+                                          },
+                                          {
+                                            "Category": "trabajo",
+                                            "Number": "(11) 4444-3500"
+                                          }
+                                      ],
+                                    "EmailEntries":
+                                      [
+                                          {
+                                            "Address": "jorge.izaguirre@x.com"
+                                          },
+                                          {
+                                            "Address": "izaguirre.jorge@x.com"
+                                          }
+                                      ],
+                                    "MapAddressEntries":
+                                      [
+                                          {
+                                            "Category": "casa",
+                                            "Address":
+                                              {
+                                                "Address": "Cerrito 628, C1010 CABA"
+                                              }
+                                          }
+                                      ],
+                                    "ACMEID": "004"
+                                  },
+                                  {
+                                    "FirstName": "Jorge",
+                                    "LastName": "Lanata",
+                                    "PhoneEntries":
+                                      [
+                                          {
+                                            "Category": "celular",
+                                            "Number": "(11) 5555-9999"
+                                          },
+                                          {
+                                            "Category": "casa",
+                                            "Number": "(11) 5555-2222"
+                                          },
+                                          {
+                                            "Category": "trabajo",
+                                            "Number": "(11) 4106-3500"
+                                          }
+                                      ],
+                                    "EmailEntries":
+                                      [
+                                          {
+                                            "Address": "martin.fierro@x.com"
+                                          },
+                                          {
+                                            "Address": "fierro.martin@x.com"
+                                          }
+                                      ],
+                                    "MapAddressEntries":
+                                      [
+                                          {
+                                            "Category": "casa",
+                                            "Address":
+                                              {
+                                                "Address": "Brandsen 805, C1161 CABA"
+                                              }
+                                          },
+                                          {
+                                            "Category": "trabajo",
+                                            "Address":
+                                              {
+                                                "Address": "Av. Pres. Figueroa Alcorta 7597, C1428 CABA"
+                                              }
+                                          }
+                                      ],
+                                    "ACMEID": "005"
+                                  },
+                                  {
+                                    "FirstName": "Jorge",
+                                    "LastName": "Corona",
+                                    "PhoneEntries":
+                                      [
+                                          {
+                                            "Category": "celular",
+                                            "Number": "(11) 5555-9999"
+                                          },
+                                          {
+                                            "Category": "casa",
+                                            "Number": "(11) 5555-2222"
+                                          },
+                                          {
+                                            "Category": "trabajo",
+                                            "Number": "(11) 4106-3500"
+                                          }
+                                      ],
+                                    "EmailEntries":
+                                      [
+                                          {
+                                            "Address": "martin.fierro@x.com"
+                                          },
+                                          {
+                                            "Address": "fierro.martin@x.com"
+                                          }
+                                      ],
+                                    "ACMEID": "006"
+                                  },
+                                  {
+                                    "FirstName": "Antonio",
+                                    "LastName": "",
+                                    "PhoneEntries":
+                                      [
+                                          {
+                                            "Category": "casa",
+                                            "Number": "+00 34 91 357 00 56"
+                                          }
+                                      ],
+                                    "MapAddressEntries":
+                                      [
+                                          {
+                                            "Category": "casa",
+                                            "Address":
+                                              {
+                                                "Address": "Calle Río Esla, 23 28023 Madrid, España"
+                                              }
+                                          }
+                                      ]
+                                  },
+                                  {
+                                    "FirstName": "Lucas",
+                                    "LastName": "",
+                                    "PhoneEntries":
+                                      [
+                                          {
+                                            "Category": "casa",
+                                            "Number": "+00 34 91 357 00 55"
+                                          }
+                                      ],
+                                    "MapAddressEntries":
+                                      [
+                                          {
+                                            "Category": "casa",
+                                            "Address":
+                                              {
+                                                "Address": "Calle Río Adaja, 12 28023 Madrid, España"
+                                              }
+                                          }
+                                      ]
+                                  },
+                                  {
+                                    "FirstName": "Ana María",
+                                    "LastName": "",
+                                    "PhoneEntries":
+                                      [
+                                          {
+                                            "Category": "casa",
+                                            "Number": "+00 34 91 357 00 54"
+                                          }
+                                      ],
+                                    "MapAddressEntries":
+                                      [
+                                          {
+                                            "Category": "casa",
+                                            "Address":
+                                              {
+                                                "Address": "Calle de Valtravieso, 22 28023 Madrid, España"
+                                              }
+                                          }
+                                      ]
+                                  },
+                                  {
+                                    "FirstName": "José",
+                                    "LastName": "",
+                                    "PhoneEntries":
+                                      [
+                                          {
+                                            "Category": "casa",
+                                            "Number": "+00 34 91 357 00 53"
+                                          }
+                                      ],
+                                    "MapAddressEntries":
+                                      [
+                                          {
+                                            "Category": "casa",
+                                            "Address":
+                                              {
+                                                "Address": "Calle Río Valtravieso, 105 28023 Madrid, España"
+                                              }
+                                          }
+                                      ]
+                                  }
+                              ]
+                          }
+                      ]
+                  },
+                "Input": "user_contacts_request"
+              }
+          ],
+        "Expected":
+          [
+              {
+                "Kind": "Partial",
+                "JSON":
+                  [
+                      {
+                        "CommandKind": "UserContactsCommand"
+                      }
+                  ],
+                "Path": "ServerResponse"
+              }
+          ]
+      },
+    "TestCases":
+      [
+          {
+            "Input":
+              [
+                  {
+                    "Kind": "Text",
+                    "DeltaRequestInfo":
+                      {
+                        "Latitude": -34.6061,
+                        "Longitude": -58.3750
+                      },
+                    "Input": "navegar a merlo",
+                    "TipoConsulta": "Modo cero"
+                  }
+              ],
+            "Expected":
+              [
+                  {
+                    "Kind": "Equal",
+                    "JSON":
+                      [],
+                    "Path": "ServerResponse"
+                  }
+              ]
+          }
+      ]
+  }
