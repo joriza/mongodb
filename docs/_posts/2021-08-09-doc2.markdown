@@ -11,6 +11,7 @@ categories: jekyll update
 [Corregir Arbol de Dependencias](https://ubunlog.com/resolver-las-dependencias-de-paquetes/)  
 [Descargar Ubunto Desktop](https://ubuntu.com/download/desktop/thank-you?country=AR&version=18.04.3&architecture=amd64)  
 
+
  
 Crear un direcctorio virtual en base a una ruta especifica
 
