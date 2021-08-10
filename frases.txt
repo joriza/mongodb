@@ -1,2 +1,86 @@
-frase_1
-Frase_2
+reproducí la anterior de nuevo
+poné la anterior pista nuevamente usando youtube
+quiero que reproduzcas la anterior de nuevo
+reproducí la última canción de nuevo
+transmití la anterior de nuevo
+emití vía cast la última de nuevo
+difundí por medio del cast el último tema nuevamente
+poné la última canción nuevamente usando soundhound
+poné la canción anterior de nuevo usando pandora
+poné el último tema otra vez usando spotify
+quiero que reproduzca la última canción una vez más usando rdio
+poné la última canción otra vez usando soundcloud
+poné el último tema de nuevo usando apple
+reproducí la última pista una vez más usando google
+poné otra vez la última pista usando amazon
+poné de nuevo el último tema usando el proveedor de música por defecto
+reproducí la última canción de nuevo usando tidal
+poné la anterior de nuevo usando tidal
+poné el anterior de nuevo usando tidal
+emita vía cast la última pista de nuevo usando tidal
+transmite vía cast la última nuevamente usando tidal
+emití vía cast el anterior de nuevo usando tidal
+reproducí de nuevo la anterior usando soundhound
+reproducí la anterior de nuevo usando soundhound
+emita vía cast la última pista de nuevo usando soundhound
+emití vía cast la anterior de nuevo usando soundhound
+transmití vía cast el anterior de nuevo usando soundhound
+reproducí aleatoriamente
+activá el modo aleatorio
+quiero que desactives el modo random
+atrás 20 segundos
+retrasa la canción veinte segundos
+retrocede 20 segundos en esta canción
+anterior tema
+canción previa
+anterior tema
+adelanta 3 canciones
+pasa 3 canciones
+salta cuatro canciones hacia delante
+salta las siguientes 2 canciones
+saltate dos canciones
+cámbiame de canción
+muévete a la siguiente canción
+pasá a la canción siguiente
+pon la próxima
+salta canción
+saltate esa canción
+sáltate esta canción
+adelanta 1 minuto de canción
+volvé al principio
+pon el modo aleatorio
+pon el modo shuffle
+ponlo en aleatorio
+reprodúcelas aleatoriamente
+dale a play
+reanuda la música
+sigue con la música
+continúa con música
+deja de reproducir
+deja de reproducir música
+pausa justo ahora
+ponla en pausa
+cambia a la tercera canción
+que suene la canción 2
+toca el track 4
+pon otro álbum
+reinicia la canción
+quisiera que se reproduzca la anterior de nuevo
+me gustaría que reproduzcas la anterior de nuevo
+me gustaría reproducir la última canción de nuevo
+me gustaría que transmitiera la anterior de nuevo
+desearía que emitas vía cast la última de nuevo
+quisiera reproducir la última canción de nuevo usando tidal
+me gustaría que emitiera vía cast la última pista de nuevo usando tidal
+quisiera reproducir de nuevo la anterior usando soundhound
+me gustaría que emitas vía cast la anterior de nuevo usando soundhound
+Saltar tres canciones
+repetir la canción
+brincar la canción que se está reproduciendo
+brincar la siguiente canción
+hazme el favor de poner otra canción
+volver a poner la misma canción
+ejecutar modo aleatorio
+dejar de reproducir
+desactivar música
+terminar canción

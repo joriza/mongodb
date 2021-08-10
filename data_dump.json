@@ -31,7 +31,1519 @@
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
           },
-          "Input": "reproducí la anterior de nuevo"
+          "Input": "poné la anterior pista nuevamente usando youtube"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "quiero que reproduzcas la anterior de nuevo"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "reproducí la última canción de nuevo"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "transmití la anterior de nuevo"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "emití vía cast la última de nuevo"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "difundí por medio del cast el último tema nuevamente"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "poné la última canción nuevamente usando soundhound"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "poné la canción anterior de nuevo usando pandora"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "poné el último tema otra vez usando spotify"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "quiero que reproduzca la última canción una vez más usando rdio"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "poné la última canción otra vez usando soundcloud"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "poné el último tema de nuevo usando apple"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "reproducí la última pista una vez más usando google"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "poné otra vez la última pista usando amazon"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "poné de nuevo el último tema usando el proveedor de música por defecto"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "reproducí la última canción de nuevo usando tidal"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "poné la anterior de nuevo usando tidal"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "poné el anterior de nuevo usando tidal"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "emita vía cast la última pista de nuevo usando tidal"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "transmite vía cast la última nuevamente usando tidal"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "emití vía cast el anterior de nuevo usando tidal"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "reproducí de nuevo la anterior usando soundhound"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "reproducí la anterior de nuevo usando soundhound"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "emita vía cast la última pista de nuevo usando soundhound"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "emití vía cast la anterior de nuevo usando soundhound"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "transmití vía cast el anterior de nuevo usando soundhound"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "reproducí aleatoriamente"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "activá el modo aleatorio"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "quiero que desactives el modo random"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "atrás 20 segundos"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "retrasa la canción veinte segundos"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "retrocede 20 segundos en esta canción"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "anterior tema"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "canción previa"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "anterior tema"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "adelanta 3 canciones"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "pasa 3 canciones"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "salta cuatro canciones hacia delante"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "salta las siguientes 2 canciones"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "saltate dos canciones"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "cámbiame de canción"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "muévete a la siguiente canción"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "pasá a la canción siguiente"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "pon la próxima"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "salta canción"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "saltate esa canción"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "sáltate esta canción"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "adelanta 1 minuto de canción"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "volvé al principio"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "pon el modo aleatorio"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "pon el modo shuffle"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "ponlo en aleatorio"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "reprodúcelas aleatoriamente"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "dale a play"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "reanuda la música"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "sigue con la música"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "continúa con música"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "deja de reproducir"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "deja de reproducir música"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "pausa justo ahora"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "ponla en pausa"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "cambia a la tercera canción"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "que suene la canción 2"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "toca el track 4"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "pon otro álbum"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "reinicia la canción"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "quisiera que se reproduzca la anterior de nuevo"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "me gustaría que reproduzcas la anterior de nuevo"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "me gustaría reproducir la última canción de nuevo"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "me gustaría que transmitiera la anterior de nuevo"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "desearía que emitas vía cast la última de nuevo"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "quisiera reproducir la última canción de nuevo usando tidal"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "me gustaría que emitiera vía cast la última pista de nuevo usando tidal"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "quisiera reproducir de nuevo la anterior usando soundhound"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "me gustaría que emitas vía cast la anterior de nuevo usando soundhound"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "Saltar tres canciones"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "repetir la canción"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "brincar la canción que se está reproduciendo"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "brincar la siguiente canción"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "hazme el favor de poner otra canción"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "volver a poner la misma canción"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "ejecutar modo aleatorio"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "dejar de reproducir"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "desactivar música"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "terminar canción"
         }
       ],
       "Expected": [
