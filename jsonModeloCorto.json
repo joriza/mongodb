@@ -1,0 +1,38 @@
+  {
+    "RequiredDomains":
+      [
+        "Navigation V2",
+        "Geoname Data",
+        "Contact Access V2",
+        "User Contacts",
+        "Query Glue",
+        "Terrier Upload"
+      ],
+    "TestCases":
+      [
+          {
+            "Input":
+              [
+                  {
+                    "Kind": "Text",
+                    "DeltaRequestInfo":
+                      {
+                        "Latitude": -34.6061,
+                        "Longitude": -58.3750
+                      },
+                    "Input": "FraseModelo",
+                    "TipoConsulta": "Modo cero"
+                  }
+              ],
+            "Expected":
+              [
+                  {
+                    "Kind": "Equal",
+                    "JSON":
+                      [],
+                    "Path": "ServerResponse"
+                  }
+              ]
+          }
+      ]
+  }

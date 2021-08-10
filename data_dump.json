@@ -1,0 +1,45 @@
+{
+  "RequiredDomains": [
+    "Music Player Control",
+    "Query Glue",
+    "Terrier Upload"
+  ],
+  "TestCases": [
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "reproducí la anterior de nuevo"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Kind": "Text",
+          "Mode": "Text",
+          "DeltaRequestInfo": {
+            "ControllableTrackPlaying": true
+          },
+          "Input": "reproducí la anterior de nuevo"
+        }
+      ],
+      "Expected": [
+        {
+          "Kind": "Equal",
+          "JSON": []
+        }
+      ]
+    }
+  ]
+}
