@@ -1,3 +1,5 @@
+# Phrases input from a txt file
+
 import os
 import json
 import copy
@@ -10,7 +12,7 @@ class EstructuraUDT():
   'Clase principal.'
   def __init__(self):
     'Inicializa la clase'
-    print("Nombre: ",__name__)
+    # print("Nombre: ",__name__)
 
   def PressEnter(self):
     '''Solo pausa hasta que se presione enter'''
@@ -40,15 +42,15 @@ if __name__ == '__main__':
   frases = udt.AbreArchivoOrigen(qry_input)
   jsonModelo = udt.LeeJsonModelo("jsonModeloCortoMPC.json")
   TestCaseModelo = jsonModelo['TestCases'][0]  ## Extrae el primer testcase para reutilizar
+  jsonModelo['TestCases'].pop() ## Elimina los test cases del json modelo.
 
   for frase_actual in frases:
-    frase_actual= frase_actual. rstrip("\n")
-    # print(frase_actual)
+    frase_actual= frase_actual. rstrip("\n") ## Quita el retorno de carra de cada frase.
     nuevoTestCase = copy.deepcopy(TestCaseModelo) ## Ojo al copiar un diccionario o lista
     nuevoTestCase['Input'][0]['Input'] = frase_actual ## Reemplaza la frase en el testcase_modelo recurrente
     jsonModelo['TestCases'].append(nuevoTestCase) ## Agrega un nuevo test_case a la lista de testcases
 
-  jsonModelo['TestCases'].pop(0) ## Se elimina el 1er test case que es que se usó de modelo.
   udt.GrabaJsonSalida(jsonModelo,"salida.json")
 
-  print("Generados ",len(jsonModelo['TestCases'])," test")
+  print("Generados",len(jsonModelo['TestCases']),"test")
+  print("Actualizar",len(jsonModelo['TestCases']))
