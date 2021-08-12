@@ -41,8 +41,8 @@ if __name__ == '__main__':
   udt = EstructuraUDT()
   frases = udt.AbreArchivoOrigen(qry_input)
   jsonModelo = udt.LeeJsonModelo("jsonModeloCortoMPC.json")
-  TestCaseModelo = jsonModelo['TestCases'][0]  ## Extrae el primer testcase para reutilizar
-  jsonModelo['TestCases'].pop() ## Elimina los test cases del json modelo.
+  TestCaseModelo = jsonModelo['TestCases'][0]  # Extrae el primer testcase para reutilizar
+  jsonModelo['TestCases'].clear() # Elimina los test cases del json modelo.
 
   for frase_actual in frases:
     frase_actual= frase_actual. rstrip("\n") ## Quita el retorno de carra de cada frase.

@@ -1,0 +1,3034 @@
+{
+  "RequiredDomains":
+    [
+      "Music Player Control",
+      "Query Glue",
+      "Terrier Upload"
+    ],
+    "TestCases":
+      [
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 114,
+                    "level_subset": "L2"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "desactivar repetición"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_REPEAT_OFF"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 179,
+                    "level_subset": "L1"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "pausar la canción"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_PAUSE"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 180,
+                    "level_subset": "L1"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "reproducir la canción actual"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_PLAY_CURRENT_SONG"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 181,
+                    "level_subset": "L1"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "reproducir la pista anterior"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_PLAY_LAST_SONG"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 182,
+                    "level_subset": "L1"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "reproducir la pista número tres"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_PLAY_NUMBERED_TRACK","PlayNumberedTrackTrackNumber":3.0}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 183,
+                    "level_subset": "L1"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "repetir la canción"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_REPLAY"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 184,
+                    "level_subset": "L1"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "omitir esta canción"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_SKIP","SkipAmount":0.0}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 185,
+                    "level_subset": "L1"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "para de reproducir"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_STOP"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 187,
+                    "level_subset": "L2"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "Me gustaría escuchar el próximo álbum"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_SKIP_ALBUM"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 188,
+                    "level_subset": "L2"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "quisiera escuchar la siguiente pista"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_SKIP","SkipAmount":0.0}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 189,
+                    "level_subset": "L2"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "pausar esta canción"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_PAUSE"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 190,
+                    "level_subset": "L2"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "Reproducir música"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_PLAY_CURRENT_SONG"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 191,
+                    "level_subset": "L2"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "Reproducir la siguiente canción"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_SKIP","SkipAmount":0.0}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 192,
+                    "level_subset": "L2"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "Reproducir la siguiente pista"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_SKIP","SkipAmount":0.0}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 193,
+                    "level_subset": "L2"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "reproducir la canción anterior"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_PLAY_LAST_SONG"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 194,
+                    "level_subset": "L2"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "activar repetición única"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_REPEAT_SINGLE"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 195,
+                    "level_subset": "L2"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "parar música"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_STOP"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 196,
+                    "level_subset": "L2"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "detener la música"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_STOP"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 197,
+                    "level_subset": "L2"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "detener esta canción"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_STOP"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 198,
+                    "level_subset": "L2"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "desactivar aleatorio"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_SHUFFLE_OFF"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 199,
+                    "level_subset": "L2"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "activar la repetición"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_REPEAT_ON"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 200,
+                    "level_subset": "L2"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "activar aleatorio"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_SHUFFLE_ON"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 683,
+                    "level_subset": "L1-V2"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "Reproducir la última canción otra vez"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_PLAY_LAST_SONG"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 684,
+                    "level_subset": "L1-V2"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "Pausar la música"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_PAUSE"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 685,
+                    "level_subset": "L1-V2"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "Repetir el álbum"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_REPLAY","UserRequestedAll":true,"UserSpecifiedPlaylist":true}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 686,
+                    "level_subset": "L1-V2"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "Mezclar estas canciones"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_SHUFFLE","UserRequestedAll":true,"UserSpecifiedPlaylist":true}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 687,
+                    "level_subset": "L1-V2"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "Apagar repetición"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_REPEAT_OFF"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 766,
+                    "level_subset": "L1-V2"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "Reproducir la última canción"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_PLAY_LAST_SONG"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 767,
+                    "level_subset": "L1-V2"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "Saltar la música"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_SKIP","SkipAmount":0.0}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 768,
+                    "level_subset": "L1-V2"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "Saltar tres canciones"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_SKIP","SkipAmount":2.0}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 769,
+                    "level_subset": "L1-V2"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "Me gusta esta canción"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_THUMBS_UP"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 770,
+                    "level_subset": "L1-V2"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "No me gusta esta canción"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_THUMBS_DOWN"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 773,
+                    "level_subset": "L1-V2"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "Repetir la música"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_REPLAY"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 774,
+                    "level_subset": "L1-V2"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "Retroceder la música"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_REWIND"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 775,
+                    "level_subset": "L1-V2"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "Adelantar dos minutos y medio"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_FAST_FORWARD","RewindFastForwardAmountInSeconds":150.0}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 776,
+                    "level_subset": "L1-V2"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "Reproducir la última canción identificada"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_PLAY_LAST_IDENTIFIED_SONG"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 777,
+                    "level_subset": "L1-V2"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "Adelantar al minuto dos"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_SEEK","SeekOffsetInSeconds":120.0}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 778,
+                    "level_subset": "L1-V2"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "Avanzar a la mitad de la canción"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_SEEK","SeekOffsetPercentage":40.0}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 779,
+                    "level_subset": "L1-V2"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "Activar reproducción aleatoria"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_SHUFFLE_ON"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 780,
+                    "level_subset": "L1-V2"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "Desactivar reproducción aleatoria"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_SHUFFLE_OFF"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 781,
+                    "level_subset": "L1-V2"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "Activar repetición"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_REPEAT_ON"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2453,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "activar modo aleatorio"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_SHUFFLE_ON"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2454,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "adelanta 1 minuto de canción"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_FAST_FORWARD","RewindFastForwardAmountInSeconds":60.0}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2455,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "adelanta 3 canciones"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_SKIP"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2456,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "adelanta 40 segundos"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_FAST_FORWARD","RewindFastForwardAmountInSeconds":40.0}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2457,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "adelanta 5 canciones"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_SKIP"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2469,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "apagar modo repetición"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_REPEAT_OFF"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2471,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "atrás 20 segundos"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_REWIND"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2472,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "avanza 15 segundos"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_FAST_FORWARD","RewindFastForwardAmountInSeconds":15.0}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2473,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "avanza diez segundos"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_FAST_FORWARD","RewindFastForwardAmountInSeconds":10.0}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2474,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "brincar la canción que se está reproduciendo"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_SKIP"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2475,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "brincar la siguiente canción"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_SKIP"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2476,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "cambia a la tercera canción"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_PLAY_NUMBERED_TRACK"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2477,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "cámbiame de canción"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_SKIP"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2481,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "canción previa"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_SKIP","SkipAmount":-1.0}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2482,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "dale a play"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_PLAY_CURRENT_SONG"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2483,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "deja de reproducir"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_STOP"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2484,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "deja de reproducir música"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_STOP"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2485,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "dejar de reproducir"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_STOP"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2488,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "detén la música"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_STOP"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2489,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "detener canción"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_STOP"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2490,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "ejecutar modo aleatorio"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_SHUFFLE_ON"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2492,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "anterior tema"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_SKIP"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2493,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "escuchar en orden aleatorio"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_SHUFFLE","UserRequestedAll":true,"UserSpecifiedPlaylist":true}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2495,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "hazme el favor de poner otra canción"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_SKIP"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2498,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "muévete a la siguiente canción"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_SKIP"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2499,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "oír música"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_PLAY_CURRENT_SONG"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2500,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "pasa 3 canciones"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_SKIP","SkipAmount":2.0}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2501,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "pasá a la canción siguiente"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_SKIP","SkipAmount":0.0}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2502,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "pausa justo ahora"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_PAUSE"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2503,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "pausa la pista"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_PAUSE"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2504,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "pausar música"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_PAUSE"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2505,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "pon el modo aleatorio"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_SHUFFLE_ON"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2506,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "pon el modo shuffle"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_SHUFFLE_ON"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2507,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "pon la próxima"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_SKIP","SkipAmount":0.0}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2508,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "pon otro álbum"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_SKIP_ALBUM"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2511,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "poné la música"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_PAUSE"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2513,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "ponla en pausa"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_PAUSE"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2514,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "ponlo en aleatorio"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_SHUFFLE_ON"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2515,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "que suene la canción 2"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_PLAY_NUMBERED_TRACK"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2516,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "reanuda la música"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_PLAY_CURRENT_SONG"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2517,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "rebobina 1 minuto"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_REWIND"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2518,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "rebobina tres minutos"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_REWIND"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2520,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "reinicia la canción"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_REPLAY"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2526,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "reprodúcelas aleatoriamente"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_SHUFFLE"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2527,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "reproducí aleatoriamente"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_SHUFFLE","UserRequestedAll":true,"UserSpecifiedPlaylist":true}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2528,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "retrasa la canción veinte segundos"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_REWIND"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2529,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "retrocede 20 segundos en esta canción"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_REWIND"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2530,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "salta a la próxima canción"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_SKIP","SkipAmount":0.0}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2531,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "salta a la siguiente"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_SKIP","SkipAmount":0.0}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2532,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "salta canción"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_SKIP","SkipAmount":0.0}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2533,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "salta cuatro canciones hacia delante"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_SKIP","SkipAmount":3.0}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2534,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "saltar canción"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_SKIP","SkipAmount":0.0}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2535,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "salta las siguientes 2 canciones"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_SKIP","SkipAmount":1.0}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2536,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "saltate dos canciones"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_SKIP","SkipAmount":1.0}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2537,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "saltate esa canción"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_SKIP","SkipAmount":0.0}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2538,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "sáltate esta canción"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_SKIP","SkipAmount":0.0}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2539,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "sigue con la música"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_PLAY_CURRENT_SONG"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2540,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "sigue tocando la canción"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_PLAY_CURRENT_SONG"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2542,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "terminar canción"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_STOP"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2543,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "toca el track 4"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_PLAY_NUMBERED_TRACK","PlayNumberedTrackTrackNumber":4.0}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2545,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "ve a la anterior canción"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_SKIP","SkipAmount":-1.0}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2546,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "ve a la pista anterior"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_SKIP","SkipAmount":-1.0}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2547,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "ve a la próxima pista"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_SKIP","SkipAmount":0.0}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2548,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "volvé al principio"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_SEEK"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2549,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "volver a poner la misma canción"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_SEEK"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2601,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "continúa con música"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_PLAY_CURRENT_SONG"}}}
+                  ]
+                }
+              ]
+          }
+					,
+          {
+            "Input":
+              [
+                {
+                  "kpic_extra_info":
+                  {
+                    "query_nr": 2715,
+                    "level_subset": "L3-survey"
+                  },
+                  "DeltaRequestInfo": {
+                    "ControllableTrackPlaying": true
+                  },
+                  "Mode": "Text",
+                  "Kind": "Text",
+                  "Input": "reproduce la música de aux"
+                }
+              ],
+            "Expected":
+              [
+                {
+                  "Kind": "Partial",
+                  "JSON":[
+                    {"ServerResponse":{"CommandKind":"MusicPlayerCommand","NativeData":{"CommandType":"MUSIC_PLAYER_RESPONSE_PLAY_CURRENT_SONG"}}}
+                  ]
+                }
+              ]
+          }
+      ]
+  }
