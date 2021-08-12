@@ -23,16 +23,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_REPEAT_OFF"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_REPEAT_OFF\"}}]}"
         }
       ]
     },
@@ -40,8 +31,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 179,
-            "level_subset": "L1"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -54,16 +45,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_PAUSE"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_PAUSE\"}}]}"
         }
       ]
     },
@@ -71,8 +53,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 180,
-            "level_subset": "L1"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -85,16 +67,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_PLAY_CURRENT_SONG"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_PLAY_CURRENT_SONG\"}}]}"
         }
       ]
     },
@@ -102,8 +75,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 181,
-            "level_subset": "L1"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -116,16 +89,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_PLAY_LAST_SONG"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_PLAY_LAST_SONG\"}}]}"
         }
       ]
     },
@@ -133,8 +97,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 182,
-            "level_subset": "L1"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -147,17 +111,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_PLAY_NUMBERED_TRACK",
-                  "PlayNumberedTrackTrackNumber": 3.0
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_PLAY_NUMBERED_TRACK\",\"PlayNumberedTrackTrackNumber\":3.0}}]}"
         }
       ]
     },
@@ -165,8 +119,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 183,
-            "level_subset": "L1"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -179,16 +133,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_REPLAY"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_REPLAY\"}}]}"
         }
       ]
     },
@@ -196,8 +141,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 184,
-            "level_subset": "L1"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -210,17 +155,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_SKIP",
-                  "SkipAmount": 0.0
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_SKIP\",\"SkipAmount\":0.0}}]}"
         }
       ]
     },
@@ -228,8 +163,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 185,
-            "level_subset": "L1"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -242,16 +177,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_STOP"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_STOP\"}}]}"
         }
       ]
     },
@@ -259,7 +185,7 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 187,
+            "query_nr": 114,
             "level_subset": "L2"
           },
           "DeltaRequestInfo": {
@@ -273,16 +199,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_SKIP_ALBUM"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_SKIP_ALBUM\"}}]}"
         }
       ]
     },
@@ -290,7 +207,7 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 188,
+            "query_nr": 114,
             "level_subset": "L2"
           },
           "DeltaRequestInfo": {
@@ -304,17 +221,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_SKIP",
-                  "SkipAmount": 0.0
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_SKIP\",\"SkipAmount\":0.0}}]}"
         }
       ]
     },
@@ -322,7 +229,7 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 189,
+            "query_nr": 114,
             "level_subset": "L2"
           },
           "DeltaRequestInfo": {
@@ -336,16 +243,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_PAUSE"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_PAUSE\"}}]}"
         }
       ]
     },
@@ -353,7 +251,7 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 190,
+            "query_nr": 114,
             "level_subset": "L2"
           },
           "DeltaRequestInfo": {
@@ -367,16 +265,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_PLAY_CURRENT_SONG"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_PLAY_CURRENT_SONG\"}}]}"
         }
       ]
     },
@@ -384,7 +273,7 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 191,
+            "query_nr": 114,
             "level_subset": "L2"
           },
           "DeltaRequestInfo": {
@@ -398,17 +287,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_SKIP",
-                  "SkipAmount": 0.0
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_SKIP\",\"SkipAmount\":0.0}}]}"
         }
       ]
     },
@@ -416,7 +295,7 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 192,
+            "query_nr": 114,
             "level_subset": "L2"
           },
           "DeltaRequestInfo": {
@@ -430,17 +309,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_SKIP",
-                  "SkipAmount": 0.0
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_SKIP\",\"SkipAmount\":0.0}}]}"
         }
       ]
     },
@@ -448,7 +317,7 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 193,
+            "query_nr": 114,
             "level_subset": "L2"
           },
           "DeltaRequestInfo": {
@@ -462,16 +331,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_PLAY_LAST_SONG"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_PLAY_LAST_SONG\"}}]}"
         }
       ]
     },
@@ -479,7 +339,7 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 194,
+            "query_nr": 114,
             "level_subset": "L2"
           },
           "DeltaRequestInfo": {
@@ -493,16 +353,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_REPEAT_SINGLE"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_REPEAT_SINGLE\"}}]}"
         }
       ]
     },
@@ -510,7 +361,7 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 195,
+            "query_nr": 114,
             "level_subset": "L2"
           },
           "DeltaRequestInfo": {
@@ -524,16 +375,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_STOP"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_STOP\"}}]}"
         }
       ]
     },
@@ -541,7 +383,7 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 196,
+            "query_nr": 114,
             "level_subset": "L2"
           },
           "DeltaRequestInfo": {
@@ -555,16 +397,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_STOP"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_STOP\"}}]}"
         }
       ]
     },
@@ -572,7 +405,7 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 197,
+            "query_nr": 114,
             "level_subset": "L2"
           },
           "DeltaRequestInfo": {
@@ -586,16 +419,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_STOP"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_STOP\"}}]}"
         }
       ]
     },
@@ -603,7 +427,7 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 198,
+            "query_nr": 114,
             "level_subset": "L2"
           },
           "DeltaRequestInfo": {
@@ -617,16 +441,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_SHUFFLE_OFF"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_SHUFFLE_OFF\"}}]}"
         }
       ]
     },
@@ -634,7 +449,7 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 199,
+            "query_nr": 114,
             "level_subset": "L2"
           },
           "DeltaRequestInfo": {
@@ -648,16 +463,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_REPEAT_ON"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_REPEAT_ON\"}}]}"
         }
       ]
     },
@@ -665,7 +471,7 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 200,
+            "query_nr": 114,
             "level_subset": "L2"
           },
           "DeltaRequestInfo": {
@@ -679,16 +485,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_SHUFFLE_ON"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_SHUFFLE_ON\"}}]}"
         }
       ]
     },
@@ -696,8 +493,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 683,
-            "level_subset": "L1-V2"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -710,16 +507,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_PLAY_LAST_SONG"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_PLAY_LAST_SONG\"}}]}"
         }
       ]
     },
@@ -727,8 +515,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 684,
-            "level_subset": "L1-V2"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -741,16 +529,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_PAUSE"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_PAUSE\"}}]}"
         }
       ]
     },
@@ -758,8 +537,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 685,
-            "level_subset": "L1-V2"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -772,18 +551,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_REPLAY",
-                  "UserRequestedAll": true,
-                  "UserSpecifiedPlaylist": true
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_REPLAY\",\"UserRequestedAll\":true,\"UserSpecifiedPlaylist\":true}}]}"
         }
       ]
     },
@@ -791,8 +559,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 686,
-            "level_subset": "L1-V2"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -805,18 +573,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_SHUFFLE",
-                  "UserRequestedAll": true,
-                  "UserSpecifiedPlaylist": true
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_SHUFFLE\",\"UserRequestedAll\":true,\"UserSpecifiedPlaylist\":true}}]}"
         }
       ]
     },
@@ -824,8 +581,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 687,
-            "level_subset": "L1-V2"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -838,16 +595,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_REPEAT_OFF"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_REPEAT_OFF\"}}]}"
         }
       ]
     },
@@ -855,8 +603,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 766,
-            "level_subset": "L1-V2"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -869,16 +617,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_PLAY_LAST_SONG"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_PLAY_LAST_SONG\"}}]}"
         }
       ]
     },
@@ -886,8 +625,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 767,
-            "level_subset": "L1-V2"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -900,17 +639,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_SKIP",
-                  "SkipAmount": 0.0
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_SKIP\",\"SkipAmount\":0.0}}]}"
         }
       ]
     },
@@ -918,8 +647,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 768,
-            "level_subset": "L1-V2"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -932,17 +661,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_SKIP",
-                  "SkipAmount": 2.0
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_SKIP\",\"SkipAmount\":2.0}}]}"
         }
       ]
     },
@@ -950,8 +669,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 769,
-            "level_subset": "L1-V2"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -964,16 +683,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_THUMBS_UP"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_THUMBS_UP\"}}]}"
         }
       ]
     },
@@ -981,8 +691,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 770,
-            "level_subset": "L1-V2"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -995,16 +705,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_THUMBS_DOWN"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_THUMBS_DOWN\"}}]}"
         }
       ]
     },
@@ -1012,8 +713,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 773,
-            "level_subset": "L1-V2"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -1026,16 +727,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_REPLAY"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_REPLAY\"}}]}"
         }
       ]
     },
@@ -1043,8 +735,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 774,
-            "level_subset": "L1-V2"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -1057,16 +749,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_REWIND"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_REWIND\"}}]}"
         }
       ]
     },
@@ -1074,8 +757,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 775,
-            "level_subset": "L1-V2"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -1088,17 +771,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_FAST_FORWARD",
-                  "RewindFastForwardAmountInSeconds": 150.0
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_FAST_FORWARD\",\"RewindFastForwardAmountInSeconds\":150.0}}]}"
         }
       ]
     },
@@ -1106,8 +779,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 776,
-            "level_subset": "L1-V2"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -1120,16 +793,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_PLAY_LAST_IDENTIFIED_SONG"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_PLAY_LAST_IDENTIFIED_SONG\"}}]}"
         }
       ]
     },
@@ -1137,8 +801,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 777,
-            "level_subset": "L1-V2"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -1151,17 +815,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_SEEK",
-                  "SeekOffsetInSeconds": 120.0
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_SEEK\",\"SeekOffsetInSeconds\":120.0}}]}"
         }
       ]
     },
@@ -1169,8 +823,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 778,
-            "level_subset": "L1-V2"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -1183,17 +837,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_SEEK",
-                  "SeekOffsetPercentage": 40.0
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_SEEK\",\"SeekOffsetPercentage\":40.0}}]}"
         }
       ]
     },
@@ -1201,8 +845,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 779,
-            "level_subset": "L1-V2"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -1215,16 +859,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_SHUFFLE_ON"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_SHUFFLE_ON\"}}]}"
         }
       ]
     },
@@ -1232,8 +867,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 780,
-            "level_subset": "L1-V2"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -1246,16 +881,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_SHUFFLE_OFF"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_SHUFFLE_OFF\"}}]}"
         }
       ]
     },
@@ -1263,8 +889,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 781,
-            "level_subset": "L1-V2"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -1277,16 +903,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_REPEAT_ON"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_REPEAT_ON\"}}]}"
         }
       ]
     },
@@ -1294,8 +911,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2453,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -1308,16 +925,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_SHUFFLE_ON"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_SHUFFLE_ON\"}}]}"
         }
       ]
     },
@@ -1325,8 +933,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2454,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -1339,17 +947,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_FAST_FORWARD",
-                  "RewindFastForwardAmountInSeconds": 60.0
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_FAST_FORWARD\",\"RewindFastForwardAmountInSeconds\":60.0}}]}"
         }
       ]
     },
@@ -1357,8 +955,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2455,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -1371,16 +969,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_SKIP"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_SKIP\"}}]}"
         }
       ]
     },
@@ -1388,8 +977,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2456,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -1402,17 +991,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_FAST_FORWARD",
-                  "RewindFastForwardAmountInSeconds": 40.0
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_FAST_FORWARD\",\"RewindFastForwardAmountInSeconds\":40.0}}]}"
         }
       ]
     },
@@ -1420,8 +999,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2457,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -1434,16 +1013,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_SKIP"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_SKIP\"}}]}"
         }
       ]
     },
@@ -1451,8 +1021,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2469,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -1465,16 +1035,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_REPEAT_OFF"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_REPEAT_OFF\"}}]}"
         }
       ]
     },
@@ -1482,8 +1043,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2471,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -1496,16 +1057,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_REWIND"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_REWIND\"}}]}"
         }
       ]
     },
@@ -1513,8 +1065,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2472,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -1527,17 +1079,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_FAST_FORWARD",
-                  "RewindFastForwardAmountInSeconds": 15.0
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_FAST_FORWARD\",\"RewindFastForwardAmountInSeconds\":15.0}}]}"
         }
       ]
     },
@@ -1545,8 +1087,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2473,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -1559,17 +1101,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_FAST_FORWARD",
-                  "RewindFastForwardAmountInSeconds": 10.0
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_FAST_FORWARD\",\"RewindFastForwardAmountInSeconds\":10.0}}]}"
         }
       ]
     },
@@ -1577,8 +1109,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2474,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -1591,16 +1123,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_SKIP"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_SKIP\"}}]}"
         }
       ]
     },
@@ -1608,8 +1131,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2475,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -1622,16 +1145,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_SKIP"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_SKIP\"}}]}"
         }
       ]
     },
@@ -1639,8 +1153,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2476,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -1653,16 +1167,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_PLAY_NUMBERED_TRACK"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_PLAY_NUMBERED_TRACK\"}}]}"
         }
       ]
     },
@@ -1670,8 +1175,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2477,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -1684,16 +1189,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_SKIP"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_SKIP\"}}]}"
         }
       ]
     },
@@ -1701,8 +1197,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2481,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -1715,17 +1211,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_SKIP",
-                  "SkipAmount": -1.0
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_SKIP\",\"SkipAmount\":-1.0}}]}"
         }
       ]
     },
@@ -1733,8 +1219,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2482,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -1747,16 +1233,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_PLAY_CURRENT_SONG"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_PLAY_CURRENT_SONG\"}}]}"
         }
       ]
     },
@@ -1764,8 +1241,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2483,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -1778,16 +1255,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_STOP"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_STOP\"}}]}"
         }
       ]
     },
@@ -1795,8 +1263,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2484,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -1809,16 +1277,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_STOP"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_STOP\"}}]}"
         }
       ]
     },
@@ -1826,8 +1285,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2485,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -1840,16 +1299,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_STOP"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_STOP\"}}]}"
         }
       ]
     },
@@ -1857,8 +1307,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2488,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -1871,16 +1321,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_STOP"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_STOP\"}}]}"
         }
       ]
     },
@@ -1888,8 +1329,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2489,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -1902,16 +1343,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_STOP"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_STOP\"}}]}"
         }
       ]
     },
@@ -1919,8 +1351,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2490,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -1933,16 +1365,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_SHUFFLE_ON"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_SHUFFLE_ON\"}}]}"
         }
       ]
     },
@@ -1950,8 +1373,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2492,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -1964,16 +1387,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_SKIP"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_SKIP\"}}]}"
         }
       ]
     },
@@ -1981,8 +1395,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2493,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -1995,18 +1409,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_SHUFFLE",
-                  "UserRequestedAll": true,
-                  "UserSpecifiedPlaylist": true
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_SHUFFLE\",\"UserRequestedAll\":true,\"UserSpecifiedPlaylist\":true}}]}"
         }
       ]
     },
@@ -2014,8 +1417,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2495,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -2028,16 +1431,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_SKIP"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_SKIP\"}}]}"
         }
       ]
     },
@@ -2045,8 +1439,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2498,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -2059,16 +1453,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_SKIP"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_SKIP\"}}]}"
         }
       ]
     },
@@ -2076,8 +1461,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2499,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -2090,16 +1475,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_PLAY_CURRENT_SONG"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_PLAY_CURRENT_SONG\"}}]}"
         }
       ]
     },
@@ -2107,8 +1483,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2500,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -2121,17 +1497,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_SKIP",
-                  "SkipAmount": 2.0
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_SKIP\",\"SkipAmount\":2.0}}]}"
         }
       ]
     },
@@ -2139,8 +1505,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2501,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -2153,17 +1519,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_SKIP",
-                  "SkipAmount": 0.0
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_SKIP\",\"SkipAmount\":0.0}}]}"
         }
       ]
     },
@@ -2171,8 +1527,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2502,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -2185,16 +1541,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_PAUSE"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_PAUSE\"}}]}"
         }
       ]
     },
@@ -2202,8 +1549,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2503,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -2216,16 +1563,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_PAUSE"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_PAUSE\"}}]}"
         }
       ]
     },
@@ -2233,8 +1571,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2504,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -2247,16 +1585,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_PAUSE"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_PAUSE\"}}]}"
         }
       ]
     },
@@ -2264,8 +1593,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2505,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -2278,16 +1607,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_SHUFFLE_ON"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_SHUFFLE_ON\"}}]}"
         }
       ]
     },
@@ -2295,8 +1615,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2506,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -2309,16 +1629,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_SHUFFLE_ON"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_SHUFFLE_ON\"}}]}"
         }
       ]
     },
@@ -2326,8 +1637,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2507,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -2340,17 +1651,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_SKIP",
-                  "SkipAmount": 0.0
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_SKIP\",\"SkipAmount\":0.0}}]}"
         }
       ]
     },
@@ -2358,8 +1659,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2508,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -2372,16 +1673,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_SKIP_ALBUM"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_SKIP_ALBUM\"}}]}"
         }
       ]
     },
@@ -2389,8 +1681,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2511,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -2403,16 +1695,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_PAUSE"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_PAUSE\"}}]}"
         }
       ]
     },
@@ -2420,8 +1703,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2513,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -2434,16 +1717,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_PAUSE"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_PAUSE\"}}]}"
         }
       ]
     },
@@ -2451,8 +1725,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2514,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -2465,16 +1739,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_SHUFFLE_ON"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_SHUFFLE_ON\"}}]}"
         }
       ]
     },
@@ -2482,8 +1747,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2515,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -2496,16 +1761,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_PLAY_NUMBERED_TRACK"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_PLAY_NUMBERED_TRACK\"}}]}"
         }
       ]
     },
@@ -2513,8 +1769,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2516,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -2527,16 +1783,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_PLAY_CURRENT_SONG"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_PLAY_CURRENT_SONG\"}}]}"
         }
       ]
     },
@@ -2544,8 +1791,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2517,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -2558,16 +1805,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_REWIND"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_REWIND\"}}]}"
         }
       ]
     },
@@ -2575,8 +1813,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2518,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -2589,16 +1827,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_REWIND"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_REWIND\"}}]}"
         }
       ]
     },
@@ -2606,8 +1835,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2520,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -2620,16 +1849,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_REPLAY"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_REPLAY\"}}]}"
         }
       ]
     },
@@ -2637,8 +1857,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2526,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -2651,16 +1871,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_SHUFFLE"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_SHUFFLE\"}}]}"
         }
       ]
     },
@@ -2668,8 +1879,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2527,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -2682,18 +1893,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_SHUFFLE",
-                  "UserRequestedAll": true,
-                  "UserSpecifiedPlaylist": true
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_SHUFFLE\",\"UserRequestedAll\":true,\"UserSpecifiedPlaylist\":true}}]}"
         }
       ]
     },
@@ -2701,8 +1901,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2528,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -2715,16 +1915,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_REWIND"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_REWIND\"}}]}"
         }
       ]
     },
@@ -2732,8 +1923,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2529,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -2746,16 +1937,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_REWIND"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_REWIND\"}}]}"
         }
       ]
     },
@@ -2763,8 +1945,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2530,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -2777,17 +1959,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_SKIP",
-                  "SkipAmount": 0.0
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_SKIP\",\"SkipAmount\":0.0}}]}"
         }
       ]
     },
@@ -2795,8 +1967,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2531,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -2809,17 +1981,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_SKIP",
-                  "SkipAmount": 0.0
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_SKIP\",\"SkipAmount\":0.0}}]}"
         }
       ]
     },
@@ -2827,8 +1989,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2532,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -2841,17 +2003,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_SKIP",
-                  "SkipAmount": 0.0
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_SKIP\",\"SkipAmount\":0.0}}]}"
         }
       ]
     },
@@ -2859,8 +2011,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2533,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -2873,17 +2025,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_SKIP",
-                  "SkipAmount": 3.0
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_SKIP\",\"SkipAmount\":3.0}}]}"
         }
       ]
     },
@@ -2891,8 +2033,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2534,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -2905,17 +2047,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_SKIP",
-                  "SkipAmount": 0.0
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_SKIP\",\"SkipAmount\":0.0}}]}"
         }
       ]
     },
@@ -2923,8 +2055,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2535,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -2937,17 +2069,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_SKIP",
-                  "SkipAmount": 1.0
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_SKIP\",\"SkipAmount\":1.0}}]}"
         }
       ]
     },
@@ -2955,8 +2077,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2536,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -2969,17 +2091,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_SKIP",
-                  "SkipAmount": 1.0
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_SKIP\",\"SkipAmount\":1.0}}]}"
         }
       ]
     },
@@ -2987,8 +2099,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2537,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -3001,17 +2113,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_SKIP",
-                  "SkipAmount": 0.0
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_SKIP\",\"SkipAmount\":0.0}}]}"
         }
       ]
     },
@@ -3019,8 +2121,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2538,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -3033,17 +2135,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_SKIP",
-                  "SkipAmount": 0.0
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_SKIP\",\"SkipAmount\":0.0}}]}"
         }
       ]
     },
@@ -3051,8 +2143,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2539,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -3065,16 +2157,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_PLAY_CURRENT_SONG"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_PLAY_CURRENT_SONG\"}}]}"
         }
       ]
     },
@@ -3082,8 +2165,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2540,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -3096,16 +2179,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_PLAY_CURRENT_SONG"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_PLAY_CURRENT_SONG\"}}]}"
         }
       ]
     },
@@ -3113,8 +2187,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2542,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -3127,16 +2201,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_STOP"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_STOP\"}}]}"
         }
       ]
     },
@@ -3144,8 +2209,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2543,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -3158,17 +2223,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_PLAY_NUMBERED_TRACK",
-                  "PlayNumberedTrackTrackNumber": 4.0
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_PLAY_NUMBERED_TRACK\",\"PlayNumberedTrackTrackNumber\":4.0}}]}"
         }
       ]
     },
@@ -3176,8 +2231,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2545,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -3190,17 +2245,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_SKIP",
-                  "SkipAmount": -1.0
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_SKIP\",\"SkipAmount\":-1.0}}]}"
         }
       ]
     },
@@ -3208,8 +2253,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2546,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -3222,17 +2267,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_SKIP",
-                  "SkipAmount": -1.0
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_SKIP\",\"SkipAmount\":-1.0}}]}"
         }
       ]
     },
@@ -3240,8 +2275,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2547,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -3254,17 +2289,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_SKIP",
-                  "SkipAmount": 0.0
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_SKIP\",\"SkipAmount\":0.0}}]}"
         }
       ]
     },
@@ -3272,8 +2297,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2548,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -3286,16 +2311,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_SEEK"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_SEEK\"}}]}"
         }
       ]
     },
@@ -3303,8 +2319,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2549,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -3317,16 +2333,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_SEEK"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_SEEK\"}}]}"
         }
       ]
     },
@@ -3334,8 +2341,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2601,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -3348,16 +2355,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_PLAY_CURRENT_SONG"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_PLAY_CURRENT_SONG\"}}]}"
         }
       ]
     },
@@ -3365,8 +2363,8 @@
       "Input": [
         {
           "kpic_extra_info": {
-            "query_nr": 2715,
-            "level_subset": "L3-survey"
+            "query_nr": 114,
+            "level_subset": "L2"
           },
           "DeltaRequestInfo": {
             "ControllableTrackPlaying": true
@@ -3379,16 +2377,7 @@
       "Expected": [
         {
           "Kind": "Partial",
-          "JSON": [
-            {
-              "ServerResponse": {
-                "CommandKind": "MusicPlayerCommand",
-                "NativeData": {
-                  "CommandType": "MUSIC_PLAYER_RESPONSE_PLAY_CURRENT_SONG"
-                }
-              }
-            }
-          ]
+          "JSON": "{\"AllResults\":[{\"CommandKind\":\"MusicPlayerCommand\",\"NativeData\":{\"CommandType\":\"MUSIC_PLAYER_RESPONSE_PLAY_CURRENT_SONG\"}}]}"
         }
       ]
     }

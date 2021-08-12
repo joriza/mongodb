@@ -51,6 +51,5 @@ if __name__ == '__main__':
     jsonModelo['TestCases'].append(nuevoTestCase) ## Agrega un nuevo test_case a la lista de testcases
 
   udt.GrabaJsonSalida(jsonModelo,"salida.json")
-
   print("Generados",len(jsonModelo['TestCases']),"test")
   print("Actualizar",len(jsonModelo['TestCases']))
