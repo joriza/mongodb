@@ -44,27 +44,22 @@ if __name__ == '__main__':
 
   for frase_actual in frases:
     TestCaseActual = copy.deepcopy(TestCaseModelo) ## Ojo al copiar un diccionario o lista
-    TestCaseActual['Input'][0]['Input'] = frase_actual['Query'] ## Reemplaza la frase en el testcase_modelo recurrente
-    TestCaseActual['Input'][0]["kpic_extra_info"]["query_nr"] = frase_actual['Query#'] ## Reemplaza el nro de Query en el testcase_modelo recurrente
-    TestCaseActual['Input'][0]["kpic_extra_info"]["level_subset"] = frase_actual['Level'] ## Reemplaza el nivel en el testcase_modelo recurrente
-    TestCaseActual['Expected'][0]['JSON'].clear() # Vacío Expected para que luego pueda hacer un appen sin problemas
+    TestCaseActual["Input"][0]["Input"] = frase_actual["Query"] ## Reemplaza la frase en el testcase_modelo recurrente
+    TestCaseActual["Input"][0]["kpic_extra_info"]["query_nr"] = frase_actual["Query#"] ## Reemplaza el nro de Query en el testcase_modelo recurrente
+    TestCaseActual["Input"][0]["kpic_extra_info"]["level_subset"] = frase_actual["Level"] ## Reemplaza el nivel en el testcase_modelo recurrente
+    TestCaseActual["Expected"][0]["JSON"].clear() # Vacío Expected para que luego pueda hacer un appen sin problemas
     # Acondiciono expected (aun en modo texto)
-    acond_expected= frase_actual['Expected Json Result']
-    acond_expected = acond_expected.replace('AllResults','ServerResponse')
-    acond_expected = acond_expected.replace('[','')
-    acond_expected = acond_expected.replace(']','')
+    acond_expected= frase_actual["Expected Json Result"]
+    acond_expected = acond_expected.replace("AllResults","ServerResponse")
+    acond_expected = acond_expected.replace("[","")
+    acond_expected = acond_expected.replace("]","")
     # Fin Acondiciono expected
-    TestCaseActual['Expected'][0]['JSON'].append(json.loads(acond_expected)) ## Reemplaza el ExpextedJson en el Json
-    jsonModelo['TestCases'].append(TestCaseActual) ## Agrega un nuevo test_case a la lista de testcases
-
-  aux = TestCaseActual['Input'][0]["kpic_extra_info"]["query_nr"]# = frase_actual['Query#'] ## Reemplaza la frase en el testcase_modelo recurrente
-  print("aux",aux)
-
-    # quit()
+    TestCaseActual["Expected"][0]["JSON"].append(json.loads(acond_expected)) ## Reemplaza el ExpextedJson en el Json
+    jsonModelo["TestCases"].append(TestCaseActual) ## Agrega un nuevo test_case a la lista de testcases
 
   udt.SaveTargetFile(jsonModelo,"salida.json")
-  print("Generados",len(jsonModelo['TestCases']),"test")
-  print("Actualizar",len(jsonModelo['TestCases']))
+  print("Generados",len(jsonModelo["TestCases"]),"test")
+  print("Actualizar",len(jsonModelo["TestCases"]))
 
 # TestCases[0].Input[0].Input
 # TestCases[0].Expected[0].JSON[0]
