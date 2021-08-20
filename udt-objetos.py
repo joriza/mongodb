@@ -4,11 +4,12 @@ import os
 import json
 import copy
 
-qry_input = "frases.txt" # Archivo con las frases origen
+qry_input = "frases.txt"  # Archivo con las frases origen
 
-os.system ("clear")
+os.system("clear")
 
-class EstructuraUDT():
+
+class EstructuraUDT:
   'Clase principal.'
   def __init__(self):
     'Inicializa la clase'
@@ -36,6 +37,7 @@ class EstructuraUDT():
     with open(filename, "w") as write_file: # Escribe en archivo json indentado
       json.dump(object, write_file, ensure_ascii= False, indent=2)
     # return(docJson)
+
 
 if __name__ == '__main__':
   udt = EstructuraUDT()
