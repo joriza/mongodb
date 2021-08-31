@@ -1,0 +1,32 @@
+
+Que funciona
+- Carga datos de archivo txt con frases
+- Cara datos de archivo csv tomado del repositorio de PSA de SoundHound
+- Funciona sólamente con primeras frases o frases en modo cero
+- Hay que definir a mano en el json modelo (jsonModelo.json) el required domains, el setup_queries (metadata) y delta request info
+- Para que dominios sabemos que funciona:     Music Player Control, User Music Search, Car Seat Heater seguro. Falta probar los que no tienen metadata. Es probable que funcionen allí también.
+
+
+
+
+Qué features nos gustaría tener / Cosas a mejorar
+- Probar que ande en el resto de los dominios (y si no andan, ver que hace falta modificar para que funcionen)
+- En tabla auxiliar o en archivo de configuración, guardar definiciones varias como por ejemplo Required Domains (que es algo que varía de dominio a dominio)
+- En la planilla de PSA KPI, agregar una columna para los datos: Dominio y Delta Request Info
+- Que en la planilla haya columnas que describan a que EP pertenece cada frase, y a que funcionalidad (ej conjunto de parámetros y create block) de modo de poder generar grupos de tests eligiendo entry point o funcionalidad.
+- (Opcional) Split and Merge de archivos JSON muy grandes
+- Que ejecute el clasificador con las frases de entrada para chequearlas
+- Que detecte frases duplicadas en la planilla
+- Que detecte campos vacíos que deberían tener datos
+- Que se garantice que los archivos de configuración, los archivos de entrada de frases y de salida no se van a modificar porque dos usuarios estén trabajando concurrentemente: por ejemplo, creando carpetas con nombre de usuario y fecha, o poniendolos en el git ignore.
+
+
+
+
+Para hacer ahora
+Hacer una carpeta Scripts para esta herramienta
+Crear una carpeta examples, con archivos de entrada y de salida, con el script y todo listo de modo de que sirva como un "hello wolrd" que con solo ejecutarlo muestre funcionamiento
+Crear el Readme que va a tener esto que escribimos acá
+
+
+Agregar: Implementar forma de especificar la fuente de datos, ej URL del KPI de PSA

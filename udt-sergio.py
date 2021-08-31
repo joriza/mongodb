@@ -58,7 +58,7 @@ class Test():
             # si logramos pasarle una captura en txt del Delta_Request_Info del TEST o necesario para este UDT
             self.input_elem['DeltaRequestInfo'] = luadata.unserialize(delta_request_info, encoding="utf-8", multival=False)
 
-        # Guardo todo lo referente a Input (es una lista)
+        # Guardo lo referente a Input (es una lista)
         self.testcase['Input'].append(self.input_elem)
 
         # TestCase -> Expected
@@ -69,7 +69,7 @@ class Test():
         #self.expected_elem["JSON"] = [json.loads(json_ExpRes)]
         self.expected_elem["Path"] = "ServerResponse"
 
-        # Guardo todo lo referente a Expected (es una lista)
+        # Guardo lo referente a Expected (es una lista)
         self.testcase["Expected"].append(self.expected_elem)
 
     def __str__(self):
@@ -146,7 +146,7 @@ class UDT():
             # datos de Test almacenados en TestCases
             udt_data_json['TestCases'].append(elem.data['TestCases'][0].data)
 
-        # devuelo todo en un diccionario
+        # devuelo en un diccionario
         return udt_data_json
 
     def to_file(self):
@@ -157,7 +157,7 @@ class UDT():
 
     def __str__(self):
         # Representación del objeto en modo texto (se pone lo que se quiera mostrar en la representación)
-        # En este caso el diccionario y todo su contenido como un String.
+        # En este caso el diccionario y su contenido como un String.
         udt_data_json = self.__data_to_dict()
         udt_str = json.dumps(udt_data_json, ensure_ascii=False, sort_keys=False, separators=(',', ':'), indent=4)
         return udt_str
